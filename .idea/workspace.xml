@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="" />
+    <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/thuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/thuy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2eiSIceLVG0kWPKdEO2yA3qxRoc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,10 +31,117 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.LoginTest.emptyBoth.executor": "Run",
+    "JUnit.LoginTest.login.executor": "Run",
+    "JUnit.LoginTest.loginCorrect.executor": "Run",
+    "JUnit.LoginaccountTest.loginCorrect.executor": "Run",
+    "JUnit.LoginaccountTest.loginaccount.executor": "Run",
+    "JUnit.SearchingTest.executor": "Run",
+    "JUnit.SearchingTest.searching.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Script_data"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.LoginTest.loginCorrect">
+    <configuration name="LoginTest.emptyBoth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e_commerce_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="e_commerce_page" />
+      <option name="MAIN_CLASS_NAME" value="e_commerce_page.LoginTest" />
+      <option name="METHOD_NAME" value="emptyBoth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e_commerce_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="e_commerce_page" />
+      <option name="MAIN_CLASS_NAME" value="e_commerce_page.LoginTest" />
+      <option name="METHOD_NAME" value="loginCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginaccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e_commerce_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="e_commerce_page" />
+      <option name="MAIN_CLASS_NAME" value="e_commerce_page.LoginTest" />
+      <option name="METHOD_NAME" value="loginaccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e_commerce_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="e_commerce_page" />
+      <option name="MAIN_CLASS_NAME" value="e_commerce_page.SearchingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchingTest.searching" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e_commerce_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="e_commerce_page" />
+      <option name="MAIN_CLASS_NAME" value="e_commerce_page.SearchingTest" />
+      <option name="METHOD_NAME" value="searching" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTest.loginCorrect" />
+        <item itemvalue="JUnit.LoginTest.emptyBoth" />
+        <item itemvalue="JUnit.SearchingTest.searching" />
+        <item itemvalue="JUnit.SearchingTest" />
+        <item itemvalue="JUnit.LoginTest.loginaccount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-5720f15e" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
