@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="" />
+    <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/e_commerce_page/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/e_commerce_page/LoginSuccess.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,79 +26,62 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2eiSIceLVG0kWPKdEO2yA3qxRoc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/IntelliJ/Script_data&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.LoginTest.executor": "Run",
+    "JUnit.LogintestTest.logintest.executor": "Run",
+    "JUnit.LogoutTest.logout.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Script_data",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.Zingmusic01Test.zingmusic01">
-    <configuration name="Login01Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.LogoutTest.logout">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="music_player_page.*" />
+          <option name="PATTERN" value="e_commerce_page.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="music_player_page" />
-      <option name="MAIN_CLASS_NAME" value="music_player_page.Login01Test" />
+      <option name="PACKAGE_NAME" value="e_commerce_page" />
+      <option name="MAIN_CLASS_NAME" value="e_commerce_page.LoginTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loginzing02Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Script_data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="music_player_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="music_player_page" />
-      <option name="MAIN_CLASS_NAME" value="music_player_page.Loginzing02Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Loginzingmp301Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Script_data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="music_player_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="music_player_page" />
-      <option name="MAIN_CLASS_NAME" value="music_player_page.Loginzingmp301Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Loginzingmp301Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogintestTest.logintest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="music_player_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="music_player_page" />
-      <option name="MAIN_CLASS_NAME" value="music_player_page.Loginzingmp301Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogintestTest" />
+      <option name="METHOD_NAME" value="logintest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTest.logout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogoutTest" />
+      <option name="METHOD_NAME" value="logout" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogoutTest.logout" />
+        <item itemvalue="JUnit.LogintestTest.logintest" />
+        <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.Zingmusic01Test.zingmusic01" />
         <item itemvalue="JUnit.Zingmusic01Test" />
-        <item itemvalue="JUnit.Loginzing02Test" />
-        <item itemvalue="JUnit.Loginzingmp301Test (1)" />
-        <item itemvalue="JUnit.Loginzingmp301Test" />
       </list>
     </recent_temporary>
   </component>

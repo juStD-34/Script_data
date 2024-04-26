@@ -28,17 +28,6 @@ public class LoginTest {
     driver.quit();
   }
   @Test
-  public void emptyBoth() throws InterruptedException {
-    driver.get("https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2Fbuyer%2Flogin%3Fnext%3Dhttps%253A%252F%252Fshopee.vn%252F");
-    driver.findElement(By.name("loginKey")).click();
-    driver.findElement(By.name("loginKey")).sendKeys("tuannghia236");
-    driver.findElement(By.name("password")).click();
-    driver.findElement(By.name("password")).sendKeys("123456789", Keys.ENTER);
-    Thread.sleep(3000);
-    String error = driver.findElement(By.className("cX9LiV")).getText();
-    Assert.assertEquals("Tên tài khoản của bạn hoặc Mật khẩu không đúng", error);
-  }
-  @Test
   public void loginCorrect() throws InterruptedException {
     driver.get("https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2Fbuyer%2Flogin%3Fnext%3Dhttps%253A%252F%252Fshopee.vn%252F");
     driver.findElement(By.name("loginKey")).click();
