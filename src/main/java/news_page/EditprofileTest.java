@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-public class LogoutTest {
+public class EditprofileTest {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
@@ -37,7 +37,7 @@ public class LogoutTest {
     driver.quit();
   }
   @Test
-  public void logout() throws InterruptedException {
+  public void editprofile() throws InterruptedException {
     // Action: Open website "https://nhandan.vn/"
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(804, 816));
@@ -54,15 +54,46 @@ public class LogoutTest {
     driver.findElement(By.id("txtLoginPassword")).sendKeys("123456789");
     // Action: Press ENTER
     driver.findElement(By.id("txtLoginPassword")).sendKeys(Keys.ENTER);
-    Thread.sleep(3000);
     {
-      WebElement element = driver.findElement(By.cssSelector(".account-name"));
+      Thread.sleep(3000);
+      WebElement element = driver.findElement(By.linkText("tinhieu"));
       Actions builder = new Actions(driver);
       // Action: Hover the account name button
       builder.moveToElement(element).perform();
     }
-    // Action: Click on Logout button
-    driver.findElement(By.cssSelector(".info-user > li:nth-child(4) > a")).click();
+    // Action: Click "Thông tin cá nhân"
+    driver.findElement(By.linkText("Thông tin cá nhân")).click();
+    // Action: Click text field "Giới tính"
+    driver.findElement(By.id("lsGender")).click();
+    {
+      WebElement dropdown = driver.findElement(By.id("lsGender"));
+      // Action: Select option "Nam"
+      dropdown.findElement(By.xpath("//option[. = 'Nam']")).click();
+    }
+    // Action: Click "Ngày"
+    driver.findElement(By.id("lsBirthDay")).click();
+    {
+      WebElement dropdown = driver.findElement(By.id("lsBirthDay"));
+      // Action: Select option "20"
+      dropdown.findElement(By.xpath("//option[. = '20']")).click();
+    }
+    // Action: Click "Tháng"
+    driver.findElement(By.id("lsBirthMonth")).click();
+    {
+      WebElement dropdown = driver.findElement(By.id("lsBirthMonth"));
+      // Action: Select option "06"
+      dropdown.findElement(By.xpath("//option[. = '06']")).click();
+    }
+    // Action: Click "Năm"
+    driver.findElement(By.id("lsBirthYear")).click();
+    {
+      WebElement dropdown = driver.findElement(By.id("lsBirthYear"));
+      // Action: Select option "2003"
+      dropdown.findElement(By.xpath("//option[. = '2003']")).click();
+    }
+    // Action: Click button "Cập nhật"
+    driver.findElement(By.id("btnUpdateProfile")).click();
+//    driver.findElement(By.cssSelector(".btn-1")).click();
     driver.close();
   }
 }
