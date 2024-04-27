@@ -54,7 +54,7 @@ public class openArticleNhanDan {
     // Click on the headline of the most recent breaking news.
     // Navigate to the top breaking news story by clicking it.
     // Choose the breaking news item that stands out the most and click on it.
-    driver.findElement(By.linkText("Tổng Bí thư Nguyễn Phú Trọng gửi thư, lẵng hoa chúc mừng Tết cổ truyền của Lào và Campuchia")).click();
+    driver.findElement(By.xpath("//h2/a")).click();
     driver.close();
   }
 }

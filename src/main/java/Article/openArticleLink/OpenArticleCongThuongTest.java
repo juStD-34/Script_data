@@ -39,9 +39,21 @@ public class OpenArticleCongThuongTest {
   }
   @Test
   public void openArticleCongThuong() {
+
+    //1. Visit the webpage "https://congthuong.vn/".
+    //Access the site at "https://congthuong.vn/".
+    //Go to "https://congthuong.vn/".
+    //Open the URL "https://congthuong.vn/".
+    //Direct your browser to "https://congthuong.vn/"
     driver.get("https://congthuong.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
-    driver.findElement(By.linkText("Đường dây 500 kV mạch 3 - đường Trường Sơn công nghiệp hóa thời bình - Bài 2: Lòng quyết tâm còn cao hơn núi")).click();
+
+    //2.Click on the first article displayed in the list.
+    //Select the first article from the list of options.
+    //Choose the first article shown in the list.
+    //Click on the first article listed among the options.
+    //Locate and click on the first article from the list.
+    driver.findElement(By.xpath("//li[2]/div/h2/a")).click();
     driver.close();
   }
 }

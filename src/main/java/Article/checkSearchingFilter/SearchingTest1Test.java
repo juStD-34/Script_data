@@ -44,20 +44,38 @@ public class SearchingTest1Test {
   @Test
   public void searchingTest1() {
     try {
+      //1. Direct the WebDriver to the Vietnamnet website at "https://vietnamnet.vn/".
+      //Access the Vietnamnet homepage using the provided URL.
+      //Open the Vietnamnet website in the browser window.
+      //Visit the Vietnamnet webpage to read the latest news and articles.
+      //Load the Vietnamnet site to explore updates on various topics.
       driver.get("https://vietnam.vnanet.vn/vietnamese/");
       driver.manage().window().maximize();
-      driver.findElement(By.cssSelector(".icon-search")).click();
-      Thread.sleep(1000); // Nghỉ 5 giây
 
+      //2. Click on the searching icon.
+      driver.findElement(By.cssSelector(".icon-search")).click();
+      Thread.sleep(1000);
+
+      // 3. Field "Nam Định" into the searching field.
       driver.findElement(By.id("txtkeyword")).click();
       driver.findElement(By.id("txtkeyword")).sendKeys("Nam Định");
+
+      // 4. In the filtering page, click on the "Từ ngày" listbox.
       driver.findElement(By.cssSelector("#btnsearch > svg")).click();
       driver.findElement(By.id("ContentPlaceHolder1_uc_zone_search_advance_fromdate")).click();
       Thread.sleep(1000);
+
+      //5. Select the date of starting time for filtering is 1.
       driver.findElement(By.linkText("1")).click();
+
+      // 6. click on the "Đến ngày" listbox.
       driver.findElement(By.id("ContentPlaceHolder1_uc_zone_search_advance_todate")).click();
       Thread.sleep(1000);
+
+      //7.Select the date of ending time for filtering is 6.
       driver.findElement(By.linkText("6")).click();
+
+      //8. Click on the "Chuyên mục" listbox and then select "Tin Tức".
       driver.findElement(By.id("ddlChuyenMuc_select")).click();
       Thread.sleep(1000);
       {
@@ -65,11 +83,11 @@ public class SearchingTest1Test {
         dropdown.findElement(By.xpath("//option[. = 'Tin tức']")).click();
       }
 
+      // 9. Click on the first article appeared.
       driver.findElement(By.cssSelector(".btn-search-nc")).click();
       Thread.sleep(1000);
       driver.close();
     } catch (InterruptedException e) {
-      // Xử lý nếu có lỗi trong quá trình nghỉ
     }
   }
 }

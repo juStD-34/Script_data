@@ -39,9 +39,19 @@ public class OpenArticleSHTTTest {
   }
   @Test
   public void openArticleSHTT() {
+
+    //1. Direct the WebDriver to the SoHuuTriTue website at "https://sohuutritue.net.vn/".
+    //Navigate to the SoHuuTriTue homepage using the provided URL.
+    //Open the SoHuuTriTue website in the browser window.
     driver.get("https://sohuutritue.net.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
-    driver.findElement(By.linkText("Công bố bộ nhân diện Ngày Sở hữu trí tuệ thế giới năm 2024")).click();
+
+    //2.Select and click on the first article listed on the page.
+    //Navigate to the first article by clicking on its corresponding link.
+    //Click on the headline of the initial article to read its content.
+    //Access the content of the first article by clicking on its title.
+    //Proceed to read the first article on the page by clicking on its link.
+    driver.findElement(By.xpath("//div/div[2]/div/h1/a")).click();
     driver.close();
   }
 }

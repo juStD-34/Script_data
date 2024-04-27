@@ -40,10 +40,27 @@ public class OpenArticleTNMTTest {
   }
   @Test
   public void openArticleTNMT() {
+
+    //1. Direct the WebDriver to the BaoTainguyenmoitruong website at "https://baotainguyenmoitruong.vn/".
+    //Access the BaoTainguyenmoitruong homepage using the provided URL.
+    //Open the BaoTainguyenmoitruong website in the browser window.
+    //Visit the BaoTainguyenmoitruong webpage to explore environmental news and articles.
     driver.get("https://baotainguyenmoitruong.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
+
+    //2. Select and click on the "Thời sự" section to access the latest news updates.
+    //Navigate to the "Thời sự" section by clicking on its link.
+    //Click on the "Thời sự" category to view current affairs and news.
+    //Access the latest news stories by clicking on the "Thời sự" section.
+    //Proceed to the "Thời sự" section by clicking on its corresponding link
     driver.findElement(By.linkText("Thời sự")).click();
-    driver.findElement(By.linkText("Thủ tướng Phạm Minh Chính dự Lễ công bố Quy hoạch tỉnh Thừa Thiên – Huế")).click();
+
+    //3. Select and click on the first article listed on the page.
+    //Navigate to the first article by clicking on its corresponding link.
+    //Click on the headline of the initial article to read its content.
+    //Access the content of the first article by clicking on its title.
+    //Proceed to read the first article on the page by clicking on its link.
+    driver.findElement(By.xpath("//div/h2/a")).click();
     driver.close();
   }
 }

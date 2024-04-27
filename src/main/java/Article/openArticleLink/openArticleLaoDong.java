@@ -39,9 +39,19 @@ public class openArticleLaoDong {
   }
   @Test
   public void openArticleLaoDong() {
+
+    //1. Open the webpage at "https://laodong.vn/"
     driver.get("https://laodong.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
+
+    //2, Navigate to the "Media" section by clicking it on the mainboard.
     driver.findElement(By.linkText("Media")).click();
+
+    //3. Click on the title of the first article.
+    //Choose the first article title to proceed.
+    //Click on the headline of the initial article.
+    //Select the first article title to continue.
+    //Click on the first article displayed on the page.
     driver.findElement(By.cssSelector(".m001:nth-child(1) .lazyloaded")).click();
     js.executeScript("window.scrollTo(0,30.399999618530273)");
     driver.close();

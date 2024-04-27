@@ -40,9 +40,20 @@ public class OpenArticleGiaoThongTest {
   }
   @Test
   public void openArticleGiaoThong() {
+    //1. Direct the WebDriver to the Baogiaothong website at "https://www.baogiaothong.vn/".
+    //Access the Baogiaothong homepage using the provided URL.
+    //Open the Baogiaothong website in the browser window.
+    //Visit the Baogiaothong webpage to read the latest traffic news and articles.
+    //Load the Baogiaothong site to explore traffic-related content.
     driver.get("https://www.baogiaothong.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
-    driver.findElement(By.linkText("Bình Định đề xuất Chính phủ hỗ trợ 1.500 tỷ đồng mở rộng sân bay Phù Cát")).click();
+
+    //2.Select and click on the first article listed on the page.
+    //Navigate to the first article by clicking on its corresponding link.
+    //Click on the headline of the initial article to read its content.
+    //Access the content of the first article by clicking on its title.
+    //Proceed to read the first article on the page by clicking on its link.
+    driver.findElement(By.xpath("//h2/a")).click();
     js.executeScript("window.scrollTo(0,0)");
     driver.close();
   }
