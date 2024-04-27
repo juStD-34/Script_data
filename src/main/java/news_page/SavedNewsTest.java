@@ -50,7 +50,7 @@ public class SavedNewsTest {
             // Action: Hover the account name button
             builder.moveToElement(element).perform();
         }
-        // Action: Click "Đọc gần đây"
+        // Action: Click "Tin đã lưu"
         driver.findElement(By.linkText("Tin đã lưu")).click();
         driver.close();
     }
