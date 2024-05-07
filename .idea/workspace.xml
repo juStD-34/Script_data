@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToChineseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToFrenchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +38,9 @@
   "keyToString": {
     "JUnit.ChangeToChineseTest.changeToChinese.executor": "Run",
     "JUnit.ChangeToEnglishTest.changeToEnglish.executor": "Run",
+    "JUnit.ChangeToFrenchTest.changeToFrench.executor": "Run",
+    "JUnit.ChangeToRussianTest.changeToRussian.executor": "Run",
+    "JUnit.ChangeToSpanishTest.changeToRussian.executor": "Run",
     "JUnit.EditprofileTest.editprofile.executor": "Run",
     "JUnit.LoginTest.executor": "Run",
     "JUnit.LoginTest.logintest.executor": "Run",
