@@ -5,7 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkAudioButton/AudiobuttonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTestND2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleCongThuongTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleGiaoThongTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleNguoiDuaTin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleSHTTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleTNMTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticalTNT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleBaoAnh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleLaoDong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleNhanDan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleVNnet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search_page/functionalityTest/VirtualKeyboardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBing2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBing3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBing4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogle2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogle3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogle4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/EditprofileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/EditprofileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/RecentReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/RecentReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/SavedNewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/SavedNewsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +70,6 @@
   "keyToString": {
     "JUnit.ChangeToChineseTest.changeToChinese.executor": "Run",
     "JUnit.ChangeToEnglishTest.changeToEnglish.executor": "Run",
-    "JUnit.ChangeToFrenchTest.changeToFrench.executor": "Run",
-    "JUnit.ChangeToRussianTest.changeToRussian.executor": "Run",
-    "JUnit.ChangeToSpanishTest.changeToRussian.executor": "Run",
     "JUnit.EditprofileTest.editprofile.executor": "Run",
     "JUnit.LoginTest.executor": "Run",
     "JUnit.LoginTest.logintest.executor": "Run",
@@ -50,7 +79,7 @@
     "JUnit.SavedNewsTest.viewSavedNews.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Script_data",
     "project.structure.last.edited": "Libraries",
@@ -58,7 +87,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ChangeToSpanishTest.changeToRussian">
+  <component name="RunManager" selected="JUnit.ChangeToChineseTest.changeToChinese">
     <configuration name="ChangeToChineseTest.changeToChinese" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
@@ -141,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChangeToChineseTest.changeToChinese" />
         <item itemvalue="JUnit.ChangeToSpanishTest.changeToRussian" />
         <item itemvalue="JUnit.ChangeToRussianTest.changeToRussian" />
         <item itemvalue="JUnit.ChangeToFrenchTest.changeToFrench" />
-        <item itemvalue="JUnit.ChangeToChineseTest.changeToChinese" />
         <item itemvalue="JUnit.ChangeToEnglishTest.changeToEnglish" />
       </list>
     </recent_temporary>
