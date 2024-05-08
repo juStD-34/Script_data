@@ -6,11 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToChineseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToChineseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToEnglishTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToEnglishTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToFrenchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToFrenchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToRussianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToRussianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToSpanishTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToSpanishTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/news_page/EditprofileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/EditprofileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LogoutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/news_page/RecentReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/RecentReadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/news_page/SavedNewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/SavedNewsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/functionalityTest/VirtualKeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/functionalityTest/VirtualKeyboardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBing2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBing2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBing3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBing3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBing4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBing4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldBingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogle2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogle2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogle3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogle3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogle4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogle4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_page/searchingField/SearchingFieldGoogleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

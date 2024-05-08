@@ -39,6 +39,9 @@ public class SearchingFieldGoogle4Test {
   }
   @Test
   public void searchingFieldGoogle4() {
+    // General description: searching field test
+    // Web URL: https://www.google.com/
+
     // 1. Click on the url "https://www.google.com/" and field "cdvnevker eerjhrivjee
     // ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the searching field.
 

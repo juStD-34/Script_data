@@ -39,6 +39,9 @@ public class SearchingFieldBing2Test {
   }
   @Test
   public void searchingFieldBing2() {
+    // General description: searching field bing test
+    // Web URL: https://www.bing.com/
+
     //1. Click on the url "ttps://www.bing.com/" and field this paragraph "The weather
     // outside is crisp and clear, with a gentle breeze blowing
     //through the trees, signaling the arrival of autumn. The

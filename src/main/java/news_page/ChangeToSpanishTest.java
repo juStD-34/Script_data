@@ -45,6 +45,9 @@ public class ChangeToSpanishTest {
     }
     @Test
     public void changeToRussian() {
+        // General description: change language to spanish
+        // Web URL: "https://nhandan.vn/"
+
         // Action: Open website "https://nhandan.vn/"
         driver.get("https://nhandan.vn/");
         driver.manage().window().setSize(new Dimension(1552, 832));

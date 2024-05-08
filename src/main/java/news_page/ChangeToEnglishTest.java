@@ -51,6 +51,9 @@ public class ChangeToEnglishTest {
   }
   @Test
   public void changeToEnglish() {
+    // General description: change language to english
+    // Web URL: "https://nhandan.vn/"
+
     // Action: Open website "https://nhandan.vn/"
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(1552, 832));

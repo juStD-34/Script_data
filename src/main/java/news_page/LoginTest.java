@@ -29,7 +29,10 @@ public class LoginTest {
   }
   @Test
   public void logintest() throws InterruptedException {
-    // General description : xxxxxxxxx
+    // General description: xxxxxxxxx
+    // Web URL: https://nhandan.vn/
+
+
     // Action: Open website "https://nhandan.vn/"
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(804, 816));

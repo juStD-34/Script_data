@@ -45,6 +45,9 @@ public class ChangeToChineseTest {
     }
     @Test
     public void changeToChinese() {
+        // General description: change language to chinese
+        // Web URL: "https://nhandan.vn/"
+
         // Action: Open website "https://nhandan.vn/"
         driver.get("https://nhandan.vn/");
         driver.manage().window().setSize(new Dimension(1552, 832));
