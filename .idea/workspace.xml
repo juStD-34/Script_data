@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/results/resultJson.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/results/resultJson.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,39 +35,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ChangeToChineseTest.changeToChinese.executor": "Run",
-    "JUnit.ChangeToEnglishTest.changeToEnglish.executor": "Run",
-    "JUnit.EditprofileTest.editprofile.executor": "Run",
-    "JUnit.LoginTest.executor": "Run",
-    "JUnit.LoginTest.logintest.executor": "Run",
-    "JUnit.LoginWithEmptyData.logintest.executor": "Run",
-    "JUnit.LoginWithFacebook.loginWithFacebook.executor": "Run",
-    "JUnit.LoginWithGoogle.loginWithGoogle.executor": "Run",
-    "JUnit.LoginWithShortPassword.logintest.executor": "Run",
-    "JUnit.LoginWithWrongPassword.logintest.executor": "Run",
-    "JUnit.LoginWithWrongUsername.logintest.executor": "Run",
-    "JUnit.LogintestTest.logintest.executor": "Run",
-    "JUnit.LogoutTest.logout.executor": "Run",
-    "JUnit.RecentReadTest.editprofile.executor": "Run",
-    "JUnit.SavedNewsTest.viewSavedNews.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Script_data",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
-  }
-}]]></component>
+  <component name="PropertiesComponent">{
+    &quot;keyToString&quot;: {
+    &quot;JUnit.ChangeToChineseTest.changeToChinese.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChangeToEnglishTest.changeToEnglish.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EditprofileTest.editprofile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginTest.logintest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginWithEmptyData.logintest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginWithFacebook.loginWithFacebook.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginWithGoogle.loginWithGoogle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginWithShortPassword.logintest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginWithWrongPassword.logintest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginWithWrongUsername.logintest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogintestTest.logintest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogoutTest.logout.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RecentReadTest.editprofile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SavedNewsTest.viewSavedNews.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Script_data&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    }
+    }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Desktop\IntelliJ\Script_data\src\main\java\results" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SavedNewsTest.viewSavedNews">
+  <component name="RunManager" selected="JUnit.LoginWithFacebook.loginWithFacebook">
     <configuration name="LoginWithEmptyData.logintest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
@@ -131,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SavedNewsTest.viewSavedNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginWithWrongPassword.logintest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +141,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="news_page" />
-      <option name="MAIN_CLASS_NAME" value="news_page.SavedNewsTest" />
-      <option name="METHOD_NAME" value="viewSavedNews" />
+      <option name="MAIN_CLASS_NAME" value="news_page.LoginWithWrongPassword" />
+      <option name="METHOD_NAME" value="logintest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SavedNewsTest.viewSavedNews" />
         <item itemvalue="JUnit.LoginWithFacebook.loginWithFacebook" />
         <item itemvalue="JUnit.LoginWithGoogle.loginWithGoogle" />
         <item itemvalue="JUnit.LoginWithShortPassword.logintest" />
         <item itemvalue="JUnit.LoginWithEmptyData.logintest" />
+        <item itemvalue="JUnit.LoginWithWrongPassword.logintest" />
       </list>
     </recent_temporary>
   </component>
