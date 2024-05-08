@@ -45,8 +45,8 @@ public class ChangeToChineseTest {
     }
     @Test
     public void changeToChinese() {
-        // General description: change language to chinese
-        // Web URL: "https://nhandan.vn/"
+        // General description : This code tests the function change language to Chinese of the website https://nhandan.vn/
+        // Web URL: https://nhandan.vn/
 
         // Action: Open website "https://nhandan.vn/"
         driver.get("https://nhandan.vn/");

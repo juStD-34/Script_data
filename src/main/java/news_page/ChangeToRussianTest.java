@@ -45,8 +45,8 @@ public class ChangeToRussianTest {
     }
     @Test
     public void changeToRussian() {
-        // General description: change language to russian
-        // Web URL: "https://nhandan.vn/"
+        // General description : This code tests the function change language to Russian of the website https://nhandan.vn/
+        // Web URL: https://nhandan.vn/
 
         // Action: Open website "https://nhandan.vn/"
         driver.get("https://nhandan.vn/");
