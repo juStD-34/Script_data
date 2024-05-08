@@ -42,23 +42,26 @@ public class SearchingTest3Test {
 
   @Test
   public void searchingTest3() {
+
+    // General Description: this code is checking the filter article functionality of newspaper page.
+    // web URL "https://nhandan.vn/"
     try {
 
-      // 1.Click on the url: "https://nhandan.vn/"
-      // Visit the website at the following URL: "https://nhandan.vn/".
-      // Access the link: 'https://nhandan.vn/".
-      // Navigate to 'https://nhandan.vn/' by clicking on the URL.
-      // Follow the hyperlink provided: 'https://nhandan.vn/'.
-      // Direct your browser to 'https://nhandan.vn/' by selecting the link
+      //Action: Click on the URL: "https://nhandan.vn/"
+      //Action: Visit the website at the following URL: "https://nhandan.vn/".
+      //Action: Access the link: 'https://nhandan.vn/".
+      //Action: Navigate to 'https://nhandan.vn/' by clicking on the URL.
+      //Action: Follow the hyperlink provided: 'https://nhandan.vn/'.
+      //Action: Direct your browser to 'https://nhandan.vn/' by selecting the link.
       driver.get("https://nhandan.vn/");
       driver.manage().window().maximize();
 
-      // 2.Click on the searching button.
-      // Click on the button that have the magnifying glass label.
+      //Action: Click on the searching button.
+      //Action: Click on the button that have the magnifying glass label.
       driver.findElement(By.cssSelector(".fa-search:nth-child(1)")).click();
       Thread.sleep(5000);
 
-      // 3.Field "Nam Dinh" into the searching field.
+      //Action: Field "Nam Dinh" into the searching field.
       driver.findElement(By.cssSelector(".txtsearch")).click();
       Thread.sleep(2000);
       driver.findElement(By.cssSelector(".txtsearch")).sendKeys("Nam Định");
@@ -68,7 +71,7 @@ public class SearchingTest3Test {
         Actions builder = new Actions(driver);
         builder.moveToElement(element).perform();
       }
-      // 4.In the filter article page, click on the "Thời gian" listbox
+      //Action: In the filter article page, click on the "Thời gian" listbox
       // and set this field "Tháng trước".
       driver.findElement(By.id("dlTime")).click();
       Thread.sleep(3000);
@@ -77,7 +80,7 @@ public class SearchingTest3Test {
         dropdown.findElement(By.xpath("//option[. = 'Tháng trước']")).click();
       }
 
-      // 5. Next, click on the "Chuyên mục" listbox
+      //Action: Next, click on the "Chuyên mục" listbox
       // and set this field "Thể thao".
       driver.findElement(By.id("dlZone")).click();
       Thread.sleep(3000);
@@ -86,8 +89,7 @@ public class SearchingTest3Test {
         dropdown.findElement(By.xpath("//option[. = 'Thể thao']")).click();
       }
 
-      // 6. click on the "Tìm theo" listbox
-      // and set this field "Theo tiêu đề".
+      //Action: click on the "Tìm theo" listbox and set this field "Theo tiêu đề".
       driver.findElement(By.id("dlMode")).click();
       Thread.sleep(3000);
       {
@@ -95,7 +97,7 @@ public class SearchingTest3Test {
         dropdown.findElement(By.xpath("//option[. = 'Theo tiêu đề']")).click();
       }
 
-      // 7. Click on the first article that appeared after filtering.
+      //Action : Click on the first article that appeared after filtering.
       driver.findElement(By.xpath("//h3/a")).click();
       driver.close();
     } catch (InterruptedException e) {

@@ -39,20 +39,22 @@ public class OpenArticleCongThuongTest {
   }
   @Test
   public void openArticleCongThuong() {
+    // General Description: this code is checking the opening article activity on the newspaper page.
+    // web URL : "https://congthuong.vn/"
 
-    //1. Visit the webpage "https://congthuong.vn/".
-    //Access the site at "https://congthuong.vn/".
-    //Go to "https://congthuong.vn/".
-    //Open the URL "https://congthuong.vn/".
-    //Direct your browser to "https://congthuong.vn/"
+    //Action: Visit the webpage "https://congthuong.vn/".
+    //Action: Access the site at "https://congthuong.vn/".
+    //Action: Go to "https://congthuong.vn/".
+    //Action: Open the URL "https://congthuong.vn/".
+    //Action: Direct your browser to "https://congthuong.vn/".
     driver.get("https://congthuong.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
 
-    //2.Click on the first article displayed in the list.
-    //Select the first article from the list of options.
-    //Choose the first article shown in the list.
-    //Click on the first article listed among the options.
-    //Locate and click on the first article from the list.
+    //Action: Click on the first article displayed in the list.
+    //Action: Select the first article from the list of options.
+    //Action: Choose the first article shown in the list.
+    //Action: Click on the first article listed among the options.
+    //Action: Locate and click on the first article from the list.
     driver.findElement(By.xpath("//li[2]/div/h2/a")).click();
     driver.close();
   }

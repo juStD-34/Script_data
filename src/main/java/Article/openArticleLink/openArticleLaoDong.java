@@ -39,19 +39,21 @@ public class openArticleLaoDong {
   }
   @Test
   public void openArticleLaoDong() {
+    // General Description: this code is checking the opening article activity on the newspaper page.
+    // web URL : "https://laodong.vn/"
 
-    //1. Open the webpage at "https://laodong.vn/"
+    //Action: Open the webpage at "https://laodong.vn/"
     driver.get("https://laodong.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
 
-    //2, Navigate to the "Media" section by clicking it on the mainboard.
+    //Action: Navigate to the "Media" section by clicking it on the mainboard.
     driver.findElement(By.linkText("Media")).click();
 
-    //3. Click on the title of the first article.
-    //Choose the first article title to proceed.
-    //Click on the headline of the initial article.
-    //Select the first article title to continue.
-    //Click on the first article displayed on the page.
+    //Action: Select and click on the first article listed on the page.
+    //Action: Navigate to the first article by clicking on its corresponding link.
+    //Action: Click on the headline of the initial article to read its content.
+    //Action: Access the content of the first article by clicking on its title.
+    //Action: Proceed to read the first article on the page by clicking on its link.e.
     driver.findElement(By.cssSelector(".m001:nth-child(1) .lazyloaded")).click();
     js.executeScript("window.scrollTo(0,30.399999618530273)");
     driver.close();
