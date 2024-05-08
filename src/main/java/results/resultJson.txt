@@ -1,138 +1,138 @@
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to chinese","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to chinese","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.linkText(\"中文\")).click();","description":"change language to chinese","comment":"\/\/ Action: Click on 中文 at the top bar\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.linkText(\"中文\")).click();","description":"change language to chinese","comment":"Click on 中文 at the top bar\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to english","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to english","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.linkText(\"English\")).click();","description":"change language to english","comment":"\/\/ Action: Click on English at the top bar\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.linkText(\"English\")).click();","description":"change language to english","comment":"Click on English at the top bar\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to french","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to french","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.linkText(\"Français\")).click();","description":"change language to french","comment":"\/\/ Action: Click on Français at the top bar\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.linkText(\"Français\")).click();","description":"change language to french","comment":"Click on Français at the top bar\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to russian","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to russian","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.linkText(\"Русский Язык\")).click();","description":"change language to russian","comment":"\/\/ Action: Click on Русский Язык at the top bar\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.linkText(\"Русский Язык\")).click();","description":"change language to russian","comment":"Click on Русский Язык at the top bar\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to spanish","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"change language to spanish","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.linkText(\"Español\")).click();","description":"change language to spanish","comment":"\/\/ Action: Click on Español at the top bar\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.linkText(\"Español\")).click();","description":"change language to spanish","comment":"Click on Español at the top bar\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"edit profile","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"edit profile","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.cssSelector(\".account-login\")).click();","description":"edit profile","comment":"\/\/ Action: Click on Login button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.cssSelector(\".account-login\")).click();","description":"edit profile","comment":"Click on Login button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"edit profile","comment":"\/\/ Action: Click on Email text field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"edit profile","comment":"Click on Email text field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"edit profile","comment":"\/\/ Action: Enter \"thht200603@gmail.com\" into email field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"edit profile","comment":"Enter \"thht200603@gmail.com\" into email field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"edit profile","comment":"\/\/ Action: Click on Password text field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"edit profile","comment":"Click on Password text field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"edit profile","comment":"\/\/ Action: Enter \"123456789\" into password field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"edit profile","comment":"Enter \"123456789\" into password field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"edit profile","comment":"\/\/ Action: Press ENTER\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"edit profile","comment":"Press ENTER\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"    builder.moveToElement(element).perform();\r\n}","description":"edit profile","comment":"\/\/ Action: Hover the account name button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"    builder.moveToElement(element).perform();\r\n}","description":"edit profile","comment":"Hover the account name button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.linkText(\"Thông tin cá nhân\")).click();","description":"edit profile","comment":"\/\/ Action: Click \"Thông tin cá nhân\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.linkText(\"Thông tin cá nhân\")).click();","description":"edit profile","comment":"Click \"Thông tin cá nhân\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"lsGender\")).click();","description":"edit profile","comment":"\/\/ Action: Click text field \"Giới tính\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"lsGender\")).click();","description":"edit profile","comment":"Click text field \"Giới tính\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"    dropdown.findElement(By.xpath(\"\/\/option[. = 'Nam']\")).click();\r\n}","description":"edit profile","comment":"\/\/ Action: Select option \"Nam\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"    dropdown.findElement(By.xpath(\"\/\/option[. = 'Nam']\")).click();\r\n}","description":"edit profile","comment":"Select option \"Nam\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"lsBirthDay\")).click();","description":"edit profile","comment":"\/\/ Action: Click \"Ngày\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"lsBirthDay\")).click();","description":"edit profile","comment":"Click \"Ngày\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"    dropdown.findElement(By.xpath(\"\/\/option[. = '20']\")).click();\r\n}","description":"edit profile","comment":"\/\/ Action: Select option \"20\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"    dropdown.findElement(By.xpath(\"\/\/option[. = '20']\")).click();\r\n}","description":"edit profile","comment":"Select option \"20\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"lsBirthMonth\")).click();","description":"edit profile","comment":"\/\/ Action: Click \"Tháng\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"lsBirthMonth\")).click();","description":"edit profile","comment":"Click \"Tháng\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"    dropdown.findElement(By.xpath(\"\/\/option[. = '06']\")).click();\r\n}","description":"edit profile","comment":"\/\/ Action: Select option \"06\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"    dropdown.findElement(By.xpath(\"\/\/option[. = '06']\")).click();\r\n}","description":"edit profile","comment":"Select option \"06\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"lsBirthYear\")).click();","description":"edit profile","comment":"\/\/ Action: Click \"Năm\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"lsBirthYear\")).click();","description":"edit profile","comment":"Click \"Năm\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"    dropdown.findElement(By.xpath(\"\/\/option[. = '2003']\")).click();\r\n}","description":"edit profile","comment":"\/\/ Action: Select option \"2003\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"    dropdown.findElement(By.xpath(\"\/\/option[. = '2003']\")).click();\r\n}","description":"edit profile","comment":"Select option \"2003\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"btnUpdateProfile\")).click();","description":"edit profile","comment":"\/\/ Action: Click button \"Cập nhật\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"btnUpdateProfile\")).click();","description":"edit profile","comment":"Click button \"Cập nhật\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"builder.moveToElement(element).perform();","description":"edit profile","comment":"\/\/ Action: Hover the account name button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"builder.moveToElement(element).perform();","description":"edit profile","comment":"Hover the account name button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"dropdown.findElement(By.xpath(\"\/\/option[. = 'Nam']\")).click();","description":"edit profile","comment":"\/\/ Action: Select option \"Nam\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"dropdown.findElement(By.xpath(\"\/\/option[. = 'Nam']\")).click();","description":"edit profile","comment":"Select option \"Nam\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"dropdown.findElement(By.xpath(\"\/\/option[. = '20']\")).click();","description":"edit profile","comment":"\/\/ Action: Select option \"20\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"dropdown.findElement(By.xpath(\"\/\/option[. = '20']\")).click();","description":"edit profile","comment":"Select option \"20\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"dropdown.findElement(By.xpath(\"\/\/option[. = '06']\")).click();","description":"edit profile","comment":"\/\/ Action: Select option \"06\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"dropdown.findElement(By.xpath(\"\/\/option[. = '06']\")).click();","description":"edit profile","comment":"Select option \"06\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"dropdown.findElement(By.xpath(\"\/\/option[. = '2003']\")).click();","description":"edit profile","comment":"\/\/ Action: Select option \"2003\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"dropdown.findElement(By.xpath(\"\/\/option[. = '2003']\")).click();","description":"edit profile","comment":"Select option \"2003\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"xxxxxxxxx","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: https:\/\/nhandan.vn\/"}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"xxxxxxxxx","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"https:\/\/nhandan.vn\/"}
 ,
-{"code":"driver.findElement(By.cssSelector(\".account-login\")).click();","description":"xxxxxxxxx","comment":"\/\/ Action: Click on Login button\r","URL":"\/\/ Web URL: https:\/\/nhandan.vn\/"}
+{"code":"driver.findElement(By.cssSelector(\".account-login\")).click();","description":"xxxxxxxxx","comment":"Click on Login button\r","URL":"https:\/\/nhandan.vn\/"}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"xxxxxxxxx","comment":"\/\/ Action: Click on Email text field\r","URL":"\/\/ Web URL: https:\/\/nhandan.vn\/"}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"xxxxxxxxx","comment":"Click on Email text field\r","URL":"https:\/\/nhandan.vn\/"}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"xxxxxxxxx","comment":"\/\/ Action: Enter \"thht200603@gmail.com\" into email field\r","URL":"\/\/ Web URL: https:\/\/nhandan.vn\/"}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"xxxxxxxxx","comment":"Enter \"thht200603@gmail.com\" into email field\r","URL":"https:\/\/nhandan.vn\/"}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"xxxxxxxxx","comment":"\/\/ Action: Click on Password text field\r","URL":"\/\/ Web URL: https:\/\/nhandan.vn\/"}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"xxxxxxxxx","comment":"Click on Password text field\r","URL":"https:\/\/nhandan.vn\/"}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"xxxxxxxxx","comment":"\/\/ Action: Enter \"123456789\" into password field\r","URL":"\/\/ Web URL: https:\/\/nhandan.vn\/"}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"xxxxxxxxx","comment":"Enter \"123456789\" into password field\r","URL":"https:\/\/nhandan.vn\/"}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"xxxxxxxxx","comment":"\/\/ Action: Press ENTER\r","URL":"\/\/ Web URL: https:\/\/nhandan.vn\/"}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"xxxxxxxxx","comment":"Press ENTER\r","URL":"https:\/\/nhandan.vn\/"}
 ,
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"logout","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"logout","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.cssSelector(\".account-login\")).click();","description":"logout","comment":"\/\/ Action: Click on Login button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.cssSelector(\".account-login\")).click();","description":"logout","comment":"Click on Login button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"logout","comment":"\/\/ Action: Click on Email text field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"logout","comment":"Click on Email text field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"logout","comment":"\/\/ Action: Enter \"thht200603@gmail.com\" into email field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"logout","comment":"Enter \"thht200603@gmail.com\" into email field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"logout","comment":"\/\/ Action: Click on Password text field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"logout","comment":"Click on Password text field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"logout","comment":"\/\/ Action: Enter \"123456789\" into password field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"logout","comment":"Enter \"123456789\" into password field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"logout","comment":"\/\/ Action: Press ENTER\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"logout","comment":"Press ENTER\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"    builder.moveToElement(element).perform();\r\n}","description":"logout","comment":"\/\/ Action: Hover the account name button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"    builder.moveToElement(element).perform();\r\n}","description":"logout","comment":"Hover the account name button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.cssSelector(\".info-user > li:nth-child(4) > a\")).click();","description":"logout","comment":"\/\/ Action: Click on Logout button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.cssSelector(\".info-user > li:nth-child(4) > a\")).click();","description":"logout","comment":"Click on Logout button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"builder.moveToElement(element).perform();","description":"logout","comment":"\/\/ Action: Hover the account name button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"builder.moveToElement(element).perform();","description":"logout","comment":"Hover the account name button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"show recent read","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"show recent read","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"show recent read","comment":"\/\/ Action: Click on Email text field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"show recent read","comment":"Click on Email text field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"show recent read","comment":"\/\/ Action: Enter \"thht200603@gmail.com\" into  email field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"show recent read","comment":"Enter \"thht200603@gmail.com\" into  email field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"show recent read","comment":"\/\/ Action: Click on Password text field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"show recent read","comment":"Click on Password text field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"show recent read","comment":"\/\/ Action: Enter \"123456789\" into password field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"show recent read","comment":"Enter \"123456789\" into password field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"show recent read","comment":"\/\/ Action: Press ENTER\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"show recent read","comment":"Press ENTER\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"    builder.moveToElement(element).perform();\r\n}","description":"show recent read","comment":"\/\/ Action: Hover the account name button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"    builder.moveToElement(element).perform();\r\n}","description":"show recent read","comment":"Hover the account name button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.linkText(\"Đọc gần đây\")).click();","description":"show recent read","comment":"\/\/ Action: Click \"Đọc gần đây\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.linkText(\"Đọc gần đây\")).click();","description":"show recent read","comment":"Click \"Đọc gần đây\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"builder.moveToElement(element).perform();","description":"show recent read","comment":"\/\/ Action: Hover the account name button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"builder.moveToElement(element).perform();","description":"show recent read","comment":"Hover the account name button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"save news","comment":"\/\/ Action: Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.get(\"https:\/\/nhandan.vn\/\");","description":"save news","comment":"Open website \"https:\/\/nhandan.vn\/\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.cssSelector(\".account-login\")).click();","description":"save news","comment":"\/\/ Action: Click on Login button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.cssSelector(\".account-login\")).click();","description":"save news","comment":"Click on Login button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"save news","comment":"\/\/ Action: Click on Email text field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).click();","description":"save news","comment":"Click on Email text field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"save news","comment":"\/\/ Action: Enter \"thht200603@gmail.com\" into email field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginEmail\")).sendKeys(\"thht200603@gmail.com\");","description":"save news","comment":"Enter \"thht200603@gmail.com\" into email field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"save news","comment":"\/\/ Action: Click on Password text field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).click();","description":"save news","comment":"Click on Password text field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"save news","comment":"\/\/ Action: Enter \"123456789\" into password field\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(\"123456789\");","description":"save news","comment":"Enter \"123456789\" into password field\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"save news","comment":"\/\/ Action: Press ENTER\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.id(\"txtLoginPassword\")).sendKeys(Keys.ENTER);","description":"save news","comment":"Press ENTER\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"    builder.moveToElement(element).perform();\r\n}","description":"save news","comment":"\/\/ Action: Hover the account name button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"    builder.moveToElement(element).perform();\r\n}","description":"save news","comment":"Hover the account name button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"driver.findElement(By.linkText(\"Tin đã lưu\")).click();","description":"save news","comment":"\/\/ Action: Click \"Tin đã lưu\"\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"driver.findElement(By.linkText(\"Tin đã lưu\")).click();","description":"save news","comment":"Click \"Tin đã lưu\"\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
-{"code":"builder.moveToElement(element).perform();","description":"save news","comment":"\/\/ Action: Hover the account name button\r","URL":"\/\/ Web URL: \"https:\/\/nhandan.vn\/\""}
+{"code":"builder.moveToElement(element).perform();","description":"save news","comment":"Hover the account name button\r","URL":"\"https:\/\/nhandan.vn\/\""}
 ,
