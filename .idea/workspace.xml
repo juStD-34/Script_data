@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="">
+    <list default="true" id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginWithEmptyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginWithEmptyData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginWithShortPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginWithShortPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginWithWrongPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginWithWrongPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginWithWrongUsername.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginWithWrongUsername.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/results/resultJson.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/results/resultJson.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\IntelliJ\Script_data\src\main\java\results" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.LoginWithFacebook.loginWithFacebook">
     <configuration name="LoginWithEmptyData.logintest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
@@ -167,7 +168,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="" />
+      <changelist id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="" />
       <created>1712385829323</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
