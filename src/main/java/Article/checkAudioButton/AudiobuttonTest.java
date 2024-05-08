@@ -38,10 +38,33 @@ public class AudiobuttonTest {
   }
   @Test
   public void audiobutton() {
+    // General Description: This test is checking the audio function of newspaper
+    // Web URL: https://nhandan.vn/
+
+    // Action: Open the url "https://nhandan.vn/"
+    // Action: Access the webpage "https://nhandan.vn/"
+    // Action: Navigate to the URL "https://nhandan.vn/"
+    // Action: Visit the link "https://nhandan.vn/"
+    // Action: Go to the address "https://nhandan.vn/"
+    // Action: Browse to the website "https://nhandan.vn/"
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
     js.executeScript("window.scrollTo(0,108)");
-    driver.findElement(By.linkText("Tri ân những người tham gia Chiến dịch Điện Biên Phủ")).click();
+
+    // Action: Click on the center article in the main page.
+    //Action: Clicking on the center article in the main page.
+    //Action: Selecting the center article on the main page with a click.
+    //Action: Accessing the center article on the main page by clicking.
+    //Action: Engaging with the center article on the main page by clicking.
+    //Action: Choosing the center article on the main page with a click.
+    driver.findElement(By.xpath("//h2/a")).click();
+
+    // Action: Click on the type of voice button and choose "Nam miền Bắc".
+    //Action: Clicking on the voice type button and selecting "Nam miền Bắc".
+    //Action: Selecting "Nam miền Bắc" after clicking on the voice type button.
+    //Action: Accessing the option "Nam miền Bắc" by clicking on the voice type button.
+    //Action: Engaging with the "Nam miền Bắc" option by clicking on the voice type button.
+    //Action: Choosing "Nam miền Bắc" from the voice type options by clicking.
     driver.findElement(By.cssSelector("#bm-player-dropdownbtn > span")).click();
     driver.findElement(By.cssSelector("li:nth-child(1) span")).click();
     {
@@ -59,8 +82,22 @@ public class AudiobuttonTest {
       Actions builder = new Actions(driver);
       builder.moveToElement(element).release().perform();
     }
+
     driver.findElement(By.cssSelector(".left")).click();
+    // Action: Click pause the voice.
+    //Action: Clicking to pause the voice.
+    //Action: Selecting the pause button for the voice.
+    //Action: Accessing the pause option for the voice by clicking.
+    //Action: Engaging with the pause function for the voice by clicking.
+    //Action: Choosing to pause the voice by clicking.
     driver.findElement(By.xpath("//span/i")).click();
+
+    // Action: Click play the voice
+    //Action: Clicking to play the voice.
+    //Action: Selecting the play button for the voice.
+    //Action: Accessing the play option for the voice by clicking.
+    //Action: Engaging with the play function for the voice by clicking.
+    //Action: Choosing to play the voice by clicking.
     driver.findElement(By.xpath("//span/i")).click();
     driver.close();
   }

@@ -32,6 +32,8 @@ public class openArticleVNnet {
     }
     @Test
     public void openArticleVNnet() {
+        // General Description: this code is checking the opening article activity on the newspaper page.
+        // web URL : "https://vietnamnet.vn/".
 
         //1. Direct the WebDriver to the Vietnamnet website at "https://vietnamnet.vn/".
         //Access the Vietnamnet homepage using the provided URL.

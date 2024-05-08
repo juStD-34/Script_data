@@ -39,12 +39,32 @@ public class SearchND5Test {
   }
   @Test
   public void searchND5() {
+    // General Description: this code is checking the filter article functionality of newspaper page.
+    // web URL "https://nhandan.vn/"
+
+    ///Action: Click on the URL: "https://nhandan.vn/"
+    //Action: Visit the website at the following URL: "https://nhandan.vn/".
+    //Action: Access the link: 'https://nhandan.vn/".
+    //Action: Navigate to 'https://nhandan.vn/' by clicking on the URL.
+    //Action: Follow the hyperlink provided: 'https://nhandan.vn/'.
+    //Action: Direct your browser to 'https://nhandan.vn/' by selecting the link.
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(1552, 832));
+
+    // Action: Click on the searching field.
+    //Action: Select the searching field by clicking.
+    //Action: Access the searching field by clicking.
+    //Action: Engage with the searching field by clicking.
+    //Action: Choose the searching field by clicking on it.
+    //Action: Click on the searching field option.
     driver.findElement(By.cssSelector(".search-button")).click();
     driver.findElement(By.cssSelector(".txtsearch")).click();
+
+    // Action: Field "total solar eclipse" into the searching field.
     driver.findElement(By.cssSelector(".txtsearch")).sendKeys("total solar eclipse");
     driver.findElement(By.cssSelector(".txtsearch")).sendKeys(Keys.ENTER);
+
+    // Action: Click into the result field.
     driver.findElement(By.cssSelector(".result")).click();
     driver.close();
   }
