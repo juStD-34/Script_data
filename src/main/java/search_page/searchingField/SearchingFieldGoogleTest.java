@@ -39,7 +39,11 @@ public class SearchingFieldGoogleTest {
   }
   @Test
   public void searchingFieldGoogle() {
+    // General description: searching field test
+    // Web URL: https://www.google.com/
+
     try {
+
       // 1. Click on the url: "https://www.google.com/"
       // 2. Field "total solar eclipse" in the searching field
       driver.get("https://www.google.com/search?q=total+solar+eclipse&sca_esv=3d5aec0ebbda9031&sxsrf=ACQVn0_YF72oVt5N0CBlMht2RhdiR9WVZA%3A1712615214241&source=hp&ei=Lm8UZqPTDJy52roPrduimAY&iflsig=ANes7DEAAAAAZhR9PrZ5E6l97eIzEkD2Dxr_7wWuQzO-&udm=&ved=0ahUKEwijouvr1LOFAxWcnFYBHa2tCGMQ4dUDCBU&uact=5&oq=total+solar+eclipse&gs_lp=Egdnd3Mtd2l6IhN0b3RhbCBzb2xhciBlY2xpcHNlMgoQIxiABBiKBRgnMgQQABgDMgUQABiABDILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAAGIAEGLEDGIMBMgYQABgWGB4yBhAAGBYYHkihUFAAWIZIcAZ4AJABAJgB4gGgAZQXqgEGOS4xNC4yuAEDyAEA-AEBmAIfoAKnGKgCCsICChAuGIAEGIoFGEPCAhEQLhiABBixAxiDARjHARjRA8ICDxAjGIAEGIoFGCcYRhj_AcICBBAjGCfCAgoQABiABBiKBRhDwgILEC4YgAQYsQMYgwHCAhAQABiABBiKBRhDGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQABiABBixA8ICCBAuGIAEGLEDwgIREC4YgAQYxwEYrwEYmAUYmQXCAgsQLhiABBjHARivAcICBxAjGOoCGCfCAgwQIxiABBiKBRgTGCfCAg4QLhiDARjUAhixAxiABMICBRAuGIAEmAMFkgcHMTQuMTQuM6AHhOYB&sclient=gws-wiz");

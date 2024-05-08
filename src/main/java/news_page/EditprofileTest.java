@@ -38,8 +38,8 @@ public class EditprofileTest {
   }
   @Test
   public void editprofile() throws InterruptedException {
-    // General description : This code tests the editing profile function of user
-    // Web URL: https://nhandan.vn/
+    // General description: edit profile
+    // Web URL: "https://nhandan.vn/"
 
     // Action: Open website "https://nhandan.vn/"
     driver.get("https://nhandan.vn/");

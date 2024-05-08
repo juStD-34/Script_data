@@ -39,6 +39,8 @@ public class SearchingFieldBingTest {
   }
   @Test
   public void searchingFieldBing() {
+    // General description: searching field bing test
+    // Web URL: https://www.bing.com/
 
     //1. Click on the url "ttps://www.bing.com/" and field "total solar eclipse" into the searching field.
     // 1. Open the bing search by link "ttps://www.bing.com/" and type "total solar eclipse" into the searching field.
