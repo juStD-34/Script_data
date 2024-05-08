@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginWithEmptyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginWithEmptyData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginWithShortPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginWithShortPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginWithWrongPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginWithWrongPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginWithWrongUsername.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginWithWrongUsername.java" afterDir="false" />
-    </list>
+    <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

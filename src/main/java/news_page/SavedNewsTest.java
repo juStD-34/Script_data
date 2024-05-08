@@ -26,6 +26,9 @@ public class SavedNewsTest {
     }
     @Test
     public void viewSavedNews() throws InterruptedException {
+        // General description : This code tests the function viewing some news which you have saved in the website https://nhandan.vn/
+        // Web URL: https://nhandan.vn/
+
         // Pre-condition: Login successfully
         // Action: Open website "https://nhandan.vn/"
         driver.get("https://nhandan.vn/");

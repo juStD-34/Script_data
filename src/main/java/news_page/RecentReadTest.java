@@ -26,6 +26,9 @@ public class RecentReadTest {
     }
     @Test
     public void viewRecentRead() throws InterruptedException {
+        // General description : This code tests the function viewing some posts which you have recently read in the website https://nhandan.vn/
+        // Web URL: https://nhandan.vn/
+
         // Pre-condition: Login successfully
         // Action: Open website "https://nhandan.vn/"
         driver.get("https://nhandan.vn/");

@@ -38,6 +38,9 @@ public class LogoutTest {
   }
   @Test
   public void logout() throws InterruptedException {
+    // General description : This code tests the function logout from the website https://nhandan.vn/
+    // Web URL: https://nhandan.vn/
+
     // Action: Open website "https://nhandan.vn/"
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(804, 816));
