@@ -40,19 +40,23 @@ public class OpenArticleGiaoThongTest {
   }
   @Test
   public void openArticleGiaoThong() {
-    //1. Direct the WebDriver to the Baogiaothong website at "https://www.baogiaothong.vn/".
-    //Access the Baogiaothong homepage using the provided URL.
-    //Open the Baogiaothong website in the browser window.
-    //Visit the Baogiaothong webpage to read the latest traffic news and articles.
-    //Load the Baogiaothong site to explore traffic-related content.
+
+    // General Description: this code is checking the opening article activity on the newspaper page.
+    // web URL : "https://www.baogiaothong.vn/"
+
+    //Action: Direct the  Baogiaothong website at "https://www.baogiaothong.vn/".
+    //Action: Access the Baogiaothong homepage using the provided URL.
+    //Action: Open the Baogiaothong website in the browser window.
+    //Action: Visit the Baogiaothong webpage to read the latest traffic news and articles.
+    //Action: Load the Baogiaothong site to explore traffic-related content.
     driver.get("https://www.baogiaothong.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
 
-    //2.Select and click on the first article listed on the page.
-    //Navigate to the first article by clicking on its corresponding link.
-    //Click on the headline of the initial article to read its content.
-    //Access the content of the first article by clicking on its title.
-    //Proceed to read the first article on the page by clicking on its link.
+    //Action: Select and click on the first article listed on the page.
+    //Action: Navigate to the first article by clicking on its corresponding link.
+    //Action: Click on the headline of the initial article to read its content.
+    //Action: Access the content of the first article by clicking on its title.
+    //Action: Proceed to read the first article on the page by clicking on its link.
     driver.findElement(By.xpath("//h2/a")).click();
     js.executeScript("window.scrollTo(0,0)");
     driver.close();

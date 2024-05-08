@@ -39,28 +39,30 @@ public class openArticleBaoAnh {
   }
   @Test
   public void openArticleBaoAnh() {
+    // General Description: this code is checking the opening article activity on the newspaper page.
+    // web URL : "https://vietnam.vnanet.vn/vietnamese/"
 
-    //1. Navigate to the webpage at "https://vietnam.vnanet.vn/vietnamese/".
-    //Access the site "https://vietnam.vnanet.vn/vietnamese/".
-    //Go to "https://vietnam.vnanet.vn/vietnamese/".
-    //Open the URL "https://vietnam.vnanet.vn/vietnamese/".
-    //Direct your browser to "https://vietnam.vnanet.vn/vietnamese/".
+    //Action: Navigate to the webpage at "https://vietnam.vnanet.vn/vietnamese/".
+    //Action: Access the site "https://vietnam.vnanet.vn/vietnamese/".
+    //Action: Go to "https://vietnam.vnanet.vn/vietnamese/".
+    //Action: Open the URL "https://vietnam.vnanet.vn/vietnamese/".
+    //Action: Direct your browser to "https://vietnam.vnanet.vn/vietnamese/".
     driver.get("https://vietnam.vnanet.vn/vietnamese/");
     driver.manage().window().setSize(new Dimension(1552, 832));
 
-    //2. Click on the "Tin tức" section on the mainboard.
-    //Navigate to the "News" section located on the main dashboard.
-    //Select the "Tin tức" category from the main menu.
-    //Click on the "Tin tức" tab displayed on the main interface.
-    //Access the "Tin tức" segment found on the mainboard.
-    //Choose the "Tin tức" option available on the main dashboard.
+    //Action: Click on the "Tin tức" section on the mainboard.
+    //Action: Navigate to the "News" section located on the main dashboard.
+    //Action: Select the "Tin tức" category from the main menu.
+    //Action: Click on the "Tin tức" tab displayed on the main interface.
+    //Action: Access the "Tin tức" segment found on the mainboard.
+    //Action: Choose the "Tin tức" option available on the main dashboard.
     driver.findElement(By.cssSelector(".uk-navbar-nav > li:nth-child(2) > a")).click();
 
-    //3. Click on the title of the first article.
-    //Choose the first article title to proceed.
-    //Click on the headline of the initial article.
-    //Select the first article title to continue.
-    //Click on the first article displayed on the page.
+    //Action: Click on the title of the first article.
+    //Action: Choose the first article title to proceed.
+    //Action: Click on the headline of the initial article.
+    //Action: Select the first article title to continue.
+    //Action: Click on the first article displayed on the page.
     driver.findElement(By.xpath("//h3/a")).click();
     driver.close();
   }

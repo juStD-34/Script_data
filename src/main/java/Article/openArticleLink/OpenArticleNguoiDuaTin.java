@@ -39,20 +39,22 @@ public class OpenArticleNguoiDuaTin {
   }
   @Test
   public void openArticleNguoiDuaTin() {
+    // General Description: this code is checking the opening article activity on the newspaper page.
+    // web URL : "https://www.nguoiduatin.vn/".
 
-    //1. Visit the webpage at "https://www.nguoiduatin.vn/".
-    //Access the site "https://www.nguoiduatin.vn/".
-    //Go to "https://www.nguoiduatin.vn/".
-    //Open the URL "https://www.nguoiduatin.vn/".
-    //Direct your browser to "https://www.nguoiduatin.vn/".
+   //Action: Visit the webpage at "https://www.nguoiduatin.vn/".
+    //Action: Access the site "https://www.nguoiduatin.vn/".
+    //Action: Go to "https://www.nguoiduatin.vn/".
+    //Action: Open the URL "https://www.nguoiduatin.vn/".
+    //Action: Direct your browser to "https://www.nguoiduatin.vn/".
     driver.get("https://www.nguoiduatin.vn/");
     driver.manage().window().setSize(new Dimension(798, 816));
 
-    //2. Click on the title of the first article.
-    //Choose the first article title to proceed.
-    //Click on the headline of the initial article.
-    //Select the first article title to continue.
-    //Click on the first article displayed on the page.
+    //Action: Select and click on the first article listed on the page.
+    //Action: Navigate to the first article by clicking on its corresponding link.
+    //Action: Click on the headline of the initial article to read its content.
+    //Action: Access the content of the first article by clicking on its title.
+    //Action: Proceed to read the first article on the page by clicking on its link.
     driver.findElement(By.cssSelector(".tmp-title-big")).click();
     js.executeScript("window.scrollTo(0,491.20001220703125)");
     js.executeScript("window.scrollTo(0,3152.800048828125)");

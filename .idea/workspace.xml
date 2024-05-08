@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="" />
+    <list default="true" id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/anotherNewsFunctionality/IntegrationFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/anotherNewsFunctionality/MostRead2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/anotherNewsFunctionality/MostReadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/anotherNewsFunctionality/RecommendKeywordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/anotherNewsFunctionality/changeLanguage/ChangeLanguageChinaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/anotherNewsFunctionality/changeLanguage/ChangeLanguageEnglishTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkAudioButton/AudioCNN2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkAudioButton/AudioCNNTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkAudioButton/AudioND2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkAudioButton/AudioNDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkFindingBasedOnType/LDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkFindingBasedOnType/ND2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkFindingBasedOnType/TNMT2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkFindingBasedOnType/TNMTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Article/checkFindingBasedOnType/TestND1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkAudioButton/AudiobuttonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkAudioButton/AudiobuttonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND5Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND6Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND6Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTestND2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTestND2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleCongThuongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleCongThuongTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleGiaoThongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleGiaoThongTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleNguoiDuaTin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleNguoiDuaTin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleSHTTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleSHTTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleTNMTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleTNMTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticalTNT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticalTNT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleBaoAnh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleBaoAnh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleLaoDong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleLaoDong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleNhanDan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleNhanDan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleVNnet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleVNnet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToChineseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToChineseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToEnglishTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToEnglishTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToFrenchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToFrenchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToRussianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToRussianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/ChangeToSpanishTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToSpanishTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/EditprofileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/EditprofileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news_page/LoginTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

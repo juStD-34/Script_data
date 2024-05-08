@@ -39,27 +39,54 @@ public class SearchND4Test {
   }
   @Test
   public void searchND4() {
+
+    // General Description: this code is checking the filter article functionality of newspaper page.
+    // web URL "https://nhandan.vn/"
+
+    ///Action: Click on the URL: "https://nhandan.vn/"
+    //Action: Visit the website at the following URL: "https://nhandan.vn/".
+    //Action: Access the link: 'https://nhandan.vn/".
+    //Action: Navigate to 'https://nhandan.vn/' by clicking on the URL.
+    //Action: Follow the hyperlink provided: 'https://nhandan.vn/'.
+    //Action: Direct your browser to 'https://nhandan.vn/' by selecting the link.
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(1552, 832));
+
+    // Action: Click on the searching field.
+    //Action: Select the searching field by clicking.
+    //Action: Access the searching field by clicking.
+    //Action: Engage with the searching field by clicking.
+    //Action: Choose the searching field by clicking on it.
+    //Action: Click on the searching field option.
     driver.findElement(By.cssSelector(".fa-search:nth-child(1)")).click();
     driver.findElement(By.cssSelector(".txtsearch")).click();
+
+    // Action : Field "cdvnevker eerjhrivjee  ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the searching field.
     driver.findElement(By.cssSelector(".txtsearch")).sendKeys("cdvnevker eerjhrivjee  ievjevdscjfnv icevvjnfvjev iecdvvervdv");
     driver.findElement(By.cssSelector(".txtsearch")).sendKeys(Keys.ENTER);
     driver.findElement(By.id("dlTime")).click();
+
+    // Action: Select "Hôm qua" for "Thời gian" listbox.
     {
       WebElement dropdown = driver.findElement(By.id("dlTime"));
       dropdown.findElement(By.xpath("//option[. = 'Hôm qua']")).click();
     }
+    // Action: Select "Pháp luật" for "Chuyên mục" listbox.
+
     driver.findElement(By.id("dlZone")).click();
     {
       WebElement dropdown = driver.findElement(By.id("dlZone"));
       dropdown.findElement(By.xpath("//option[. = 'Pháp luật']")).click();
     }
+
+    //Action: Select "video" for "Dạng bài" listbox.
     driver.findElement(By.id("dlType")).click();
     {
       WebElement dropdown = driver.findElement(By.id("dlType"));
       dropdown.findElement(By.xpath("//option[. = 'Video']")).click();
     }
+
+    //Action: Select "Theo tiêu đề" for "Dạng bài" listbox.
     driver.findElement(By.id("dlMode")).click();
     driver.findElement(By.cssSelector(".search-tools")).click();
     {
@@ -81,6 +108,8 @@ public class SearchND4Test {
       Actions builder = new Actions(driver);
       builder.moveToElement(element).release().perform();
     }
+
+    // Action: Click "Tìm" button.
     driver.findElement(By.cssSelector(".result")).click();
     driver.findElement(By.cssSelector(".result")).click();
     {

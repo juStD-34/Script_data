@@ -33,18 +33,23 @@ public class LoginTest {
     // Web URL: https://nhandan.vn/
 
     // Action: Open website "https://nhandan.vn/"
+    // Action: Enter url https://nhandan.vn/
+    // Action: Visit https://nhandan.vn/
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(804, 816));
     // Action: Click on Login button
+    // Action: Login to your account
     driver.findElement(By.cssSelector(".account-login")).click();
     Thread.sleep(3000);
     // Action: Click on Email text field
     driver.findElement(By.id("txtLoginEmail")).click();
     // Action: Enter "thht200603@gmail.com" into email field
+    // Action: In the email field, type "thht200603@gmail.com"
     driver.findElement(By.id("txtLoginEmail")).sendKeys("thht200603@gmail.com");
     // Action: Click on Password text field
     driver.findElement(By.id("txtLoginPassword")).click();
     // Action: Enter "123456789" into password field
+    // Action: In the password field, type "123456789"
     driver.findElement(By.id("txtLoginPassword")).sendKeys("123456789");
     // Action: Press ENTER
     driver.findElement(By.id("txtLoginPassword")).sendKeys(Keys.ENTER);

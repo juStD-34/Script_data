@@ -39,21 +39,22 @@ public class openArticleNhanDan {
   }
   @Test
   public void openArticleNhanDan() {
+    // General Description: this code is checking the opening article activity on the newspaper page.
+    // web URL : "https://nhandan.vn/"
 
-    // Click on the url: "https://nhandan.vn/"
-    // Visit the website at the following URL: "https://nhandan.vn/".
-    // Access the link: 'https://nhandan.vn/".
-    // Navigate to 'https://nhandan.vn/' by clicking on the URL.
-    // Follow the hyperlink provided: 'https://nhandan.vn/'.
-    // Direct your browser to 'https://nhandan.vn/' by selecting the link
+    //Action: Visit the website at the following URL: "https://nhandan.vn/".
+    //Action: Access the link: 'https://nhandan.vn/".
+    //Action: Navigate to 'https://nhandan.vn/' by clicking on the URL.
+    //Action: Follow the hyperlink provided: 'https://nhandan.vn/'.
+    //Action: Direct your browser to 'https://nhandan.vn/' by selecting the link.
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(793, 816));
 
-    //2. Click on the most breaking news on the page
-    // Select the latest breaking news article on the page.
-    // Click on the headline of the most recent breaking news.
-    // Navigate to the top breaking news story by clicking it.
-    // Choose the breaking news item that stands out the most and click on it.
+    //Action: Click on the most breaking news on the page.
+    //Action: Select the latest breaking news article on the page.
+    //Action: Click on the headline of the most recent breaking news.
+    //Action: Navigate to the top breaking news story by clicking it.
+    //Action: Choose the breaking news item that stands out the most and click on it.
     driver.findElement(By.xpath("//h2/a")).click();
     driver.close();
   }
