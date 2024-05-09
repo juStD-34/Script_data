@@ -6,23 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND5Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND6Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchND6Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTest3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTestND2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/checkSearchingFilter/SearchingTestND2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleCongThuongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleCongThuongTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleGiaoThongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleGiaoThongTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleNguoiDuaTin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleNguoiDuaTin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleSHTTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleSHTTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleTNMTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/OpenArticleTNMTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticalTNT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticalTNT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleBaoAnh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleBaoAnh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleLaoDong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleLaoDong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleNhanDan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleNhanDan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleVNnet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Article/openArticleLink/openArticleVNnet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
