@@ -40,7 +40,7 @@ public class openArticleLaoDong {
   @Test
   public void openArticleLaoDong() {
     // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
-    // web URL : "https://laodong.vn/"
+    // WEB URL : "https://laodong.vn/"
 
     //Action: Open the webpage at "https://laodong.vn/"
     driver.get("https://laodong.vn/");

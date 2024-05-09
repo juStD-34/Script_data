@@ -40,7 +40,7 @@ public class OpenArticleCongThuongTest {
   @Test
   public void openArticleCongThuong() {
     // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
-    // web URL : "https://congthuong.vn/"
+    // WEB URL : "https://congthuong.vn/"
 
     //Action: Visit the webpage "https://congthuong.vn/".
     //Action: Access the site at "https://congthuong.vn/".

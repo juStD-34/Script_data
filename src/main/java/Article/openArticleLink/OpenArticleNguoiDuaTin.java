@@ -40,7 +40,7 @@ public class OpenArticleNguoiDuaTin {
   @Test
   public void openArticleNguoiDuaTin() {
     // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
-    // web URL : "https://www.nguoiduatin.vn/".
+    // WEB URL : "https://www.nguoiduatin.vn/".
 
    //Action: Visit the webpage at "https://www.nguoiduatin.vn/".
     //Action: Access the site "https://www.nguoiduatin.vn/".

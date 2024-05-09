@@ -40,7 +40,7 @@ public class openArticleNhanDan {
   @Test
   public void openArticleNhanDan() {
     // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
-    // web URL : "https://nhandan.vn/"
+    // WEB URL : "https://nhandan.vn/"
 
     //Action: Visit the website at the following URL: "https://nhandan.vn/".
     //Action: Access the link: 'https://nhandan.vn/".

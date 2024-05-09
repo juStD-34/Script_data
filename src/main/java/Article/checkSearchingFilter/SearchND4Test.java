@@ -41,7 +41,7 @@ public class SearchND4Test {
   public void searchND4() {
 
     // GENERAL DESCRIPTION: this code is checking the filter article functionality of newspaper page.
-    // web URL "https://nhandan.vn/"
+    // WEB URL "https://nhandan.vn/"
 
     ///Action: Click on the URL: "https://nhandan.vn/"
     //Action: Visit the website at the following URL: "https://nhandan.vn/".

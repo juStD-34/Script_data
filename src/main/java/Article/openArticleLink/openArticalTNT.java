@@ -43,7 +43,7 @@ public class openArticalTNT {
     public void openArticalTNT() {
 
         // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
-        // web URL :  "https://www.nytimes.com/"
+        // WEB URL :  "https://www.nytimes.com/"
 
        //Action: Access The New York Times website at "https://www.nytimes.com/".
         //Action: Visit The New York Times homepage.
