@@ -40,8 +40,8 @@ public class LoginWithFacebook {
   }
   @Test
   public void loginWithFacebook() throws InterruptedException {
-    // General description : This code tests the function login with Facebook to the website https://nhandan.vn/
-    // Web URL: https://nhandan.vn/
+    // GENERAL DESCRIPTION : This code tests the function login with Facebook to the website https://nhandan.vn/
+    // WEB URL: https://nhandan.vn/
 
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(804, 816));

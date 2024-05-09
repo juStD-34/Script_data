@@ -26,8 +26,8 @@ public class RecentReadTest {
     }
     @Test
     public void viewRecentRead() throws InterruptedException {
-        // General description: show recent read
-        // Web URL: "https://nhandan.vn/"
+        // GENERAL DESCRIPTION: show recent read
+        // WEB URL: "https://nhandan.vn/"
 
         // Pre-condition: Login successfully
         // Action: Open website "https://nhandan.vn/"

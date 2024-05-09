@@ -39,8 +39,8 @@ public class SearchingFieldGoogleTest {
   }
   @Test
   public void searchingFieldGoogle() {
-    // General description: searching field test
-    // Web URL: https://www.google.com/
+    // GENERAL DESCRIPTION: searching field test
+    // WEB URL: https://www.google.com/
 
     try {
 

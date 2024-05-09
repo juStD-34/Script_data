@@ -46,8 +46,8 @@ public class AudioCNN2Test {
   }
   @Test
   public void audioCNN2() {
-    // General Description: This test is checking audio function on the newspaper page
-    // Web URL: "https://edition.cnn.com/"
+    // GENERAL DESCRIPTION: This test is checking audio function on the newspaper page
+    // WEB URL: "https://edition.cnn.com/"
 
     // Action: Click on the url "https://edition.cnn.com/"
     //Action: Selecting the URL "https://edition.cnn.com/" with a click.

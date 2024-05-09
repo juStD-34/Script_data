@@ -41,7 +41,7 @@ public class OpenArticleGiaoThongTest {
   @Test
   public void openArticleGiaoThong() {
 
-    // General Description: this code is checking the opening article activity on the newspaper page.
+    // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
     // web URL : "https://www.baogiaothong.vn/"
 
     //Action: Direct the  Baogiaothong website at "https://www.baogiaothong.vn/".

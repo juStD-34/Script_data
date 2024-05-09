@@ -39,8 +39,8 @@ public class MostRead2Test {
   }
   @Test
   public void mostRead2() {
-    //General Description: This test is check the most read article while reading another article.
-    // Web url: https://nhandan.vn/
+    // GENERAL DESCRIPTION: This test is check the most read article while reading another article.
+    // WEB URL: https://nhandan.vn/
 
     // Action: Open the url "https://nhandan.vn/"
     // Action: Access the webpage "https://nhandan.vn/"

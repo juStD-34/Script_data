@@ -40,8 +40,8 @@ public class AudioNDTest {
   @Test
   public void audioND() {
 
-    // General Description: This test is going to test the audio volume of newspaper
-    // Web URL: "https://nhandan.vn/"
+    // GENERAL DESCRIPTION: This test is going to test the audio volume of newspaper
+    // WEB URL: "https://nhandan.vn/"
 
     // Action: Open the url "https://nhandan.vn/"
     // Action: Access the webpage "https://nhandan.vn/"

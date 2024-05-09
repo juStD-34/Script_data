@@ -52,8 +52,8 @@ public class ChangeLanguageChinaTest {
   }
   @Test
   public void changeLanguageChina() {
-    // General Description: This test will change the language to China and then turn back to Vietnamese for Nhan Dan newspaper.
-    // Web url: https://nhandan.vn/
+    // GENERAL DESCRIPTION: This test will change the language to China and then turn back to Vietnamese for Nhan Dan newspaper.
+    // WEB URL: https://nhandan.vn/
 
     // Action: Open the url "https://nhandan.vn/"
     // Action: Access the webpage "https://nhandan.vn/"

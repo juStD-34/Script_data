@@ -39,7 +39,7 @@ public class openArticleBaoAnh {
   }
   @Test
   public void openArticleBaoAnh() {
-    // General Description: this code is checking the opening article activity on the newspaper page.
+    // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
     // web URL : "https://vietnam.vnanet.vn/vietnamese/"
 
     //Action: Navigate to the webpage at "https://vietnam.vnanet.vn/vietnamese/".

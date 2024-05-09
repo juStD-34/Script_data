@@ -39,8 +39,8 @@ public class ND2Test {
   }
   @Test
   public void nD2() {
-    // General Description: This test is going to the finding function of the newspaper.
-    // Web URL: "https://nhandan.vn/"
+    // GENERAL DESCRIPTION: This test is going to the finding function of the newspaper.
+    // WEB URL: "https://nhandan.vn/"
 
     // Action: Open the url "https://nhandan.vn/"
     // Action: Access the webpage "https://nhandan.vn/"

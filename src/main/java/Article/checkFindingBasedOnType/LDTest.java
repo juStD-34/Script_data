@@ -40,8 +40,8 @@ public class LDTest {
   @Test
   public void lD() {
 
-    // General Description: This test is going to the finding function of the newspaper.
-    // Web URL: "https://laodong.vn/"
+    // GENERAL DESCRIPTION: This test is going to the finding function of the newspaper.
+    // WEB URL: "https://laodong.vn/"
 
     // Action: Open the url "https://laodong.vn/"
     //Action: Access the webpage "https://laodong.vn/"

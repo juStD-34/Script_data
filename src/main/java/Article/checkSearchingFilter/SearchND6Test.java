@@ -34,7 +34,7 @@ public class SearchND6Test {
   @Test
   public void searchND6() {
 
-    // General Description: this code is checking the filter article functionality of newspaper page.
+    // GENERAL DESCRIPTION: this code is checking the filter article functionality of newspaper page.
     // web URL "https://nhandan.vn/"
 
     ///Action: Click on the URL: "https://nhandan.vn/"

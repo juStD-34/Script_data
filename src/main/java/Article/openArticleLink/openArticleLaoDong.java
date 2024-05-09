@@ -39,7 +39,7 @@ public class openArticleLaoDong {
   }
   @Test
   public void openArticleLaoDong() {
-    // General Description: this code is checking the opening article activity on the newspaper page.
+    // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
     // web URL : "https://laodong.vn/"
 
     //Action: Open the webpage at "https://laodong.vn/"

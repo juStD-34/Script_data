@@ -39,7 +39,7 @@ public class OpenArticleSHTTTest {
   }
   @Test
   public void openArticleSHTT() {
-    // General Description: this code is checking the opening article activity on the newspaper page.
+    // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
     // web URL : "https://sohuutritue.net.vn/"
 
     //1. Direct the WebDriver to the SoHuuTriTue website at "https://sohuutritue.net.vn/".
