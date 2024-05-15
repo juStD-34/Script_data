@@ -43,39 +43,76 @@ public class SearchingTest1Test {
 
   @Test
   public void searchingTest1() {
+
+    // GENERAL DESCRIPTION: this code is checking the filter article functionality of newspaper page.
+    // WEB URL "https://vietnamnet.vn/"
+
     try {
-      //1. Direct the WebDriver to the Vietnamnet website at "https://vietnamnet.vn/".
-      //Access the Vietnamnet homepage using the provided URL.
-      //Open the Vietnamnet website in the browser window.
-      //Visit the Vietnamnet webpage to read the latest news and articles.
-      //Load the Vietnamnet site to explore updates on various topics.
+      //Action: Direct the WebDriver to the Vietnamnet website at "https://vietnamnet.vn/".
+      //Action: Access the Vietnamnet homepage using the provided URL.
+      //Action: Open the Vietnamnet website in the browser window.
+      //Action: Visit the Vietnamnet webpage to read the latest news and articles.
+      //Action: Load the Vietnamnet site to explore updates on various topics.
       driver.get("https://vietnam.vnanet.vn/vietnamese/");
       driver.manage().window().maximize();
 
-      //2. Click on the searching icon.
+    //Action: Select the searching icon with a click.
+      //Action: Access the searching icon by clicking.
+      //Action: Engage with the searching icon by clicking.
+      //Action: Choose the searching icon by clicking on it.
+      //Action: Click on the searching icon option.
       driver.findElement(By.cssSelector(".icon-search")).click();
       Thread.sleep(1000);
 
-      // 3. Field "Nam Định" into the searching field.
+      // Action:  Field "Nam Định" into the searching field.
+      //Action: Enter "Nam Định" into the searching field.
+      //Action: Input "Nam Định" into the searching field.
+      //Action: Type "Nam Định" into the searching field.
+      //Action: Place "Nam Định" into the searching field.
+      //Action: Input the text "Nam Định" into the searching field.
       driver.findElement(By.id("txtkeyword")).click();
       driver.findElement(By.id("txtkeyword")).sendKeys("Nam Định");
 
-      // 4. In the filtering page, click on the "Từ ngày" listbox.
+      // Action: In the filtering page, click on the "Từ ngày" listbox.
+      //Action: Select the "Từ ngày" listbox in the filtering page with a click.
+      //Action: Access the "Từ ngày" listbox in the filtering page by clicking.
+      //Action: Engage with the "Từ ngày" listbox in the filtering page by clicking.
+      //Action: Choose the "Từ ngày" listbox in the filtering page by clicking on it.
+      //Action: Click on the "Từ ngày" listbox option in the filtering page.
       driver.findElement(By.cssSelector("#btnsearch > svg")).click();
       driver.findElement(By.id("ContentPlaceHolder1_uc_zone_search_advance_fromdate")).click();
       Thread.sleep(1000);
 
-      //5. Select the date of starting time for filtering is 1.
+      //Action: Select the date of starting time for filtering is 1.
+      //Action: Choose 1 as the starting date for filtering.
+      //Action: Select 1 as the starting date for filtering.
+      //Action: Set the starting time for filtering to 1.
+      //Action: Specify 1 as the starting date for filtering.
+      //Action: Indicate that the starting time for filtering is 1.
       driver.findElement(By.linkText("1")).click();
 
-      // 6. click on the "Đến ngày" listbox.
+      //Action: Select the "Đến ngày" listbox by clicking.
+      //Action: Access the "Đến ngày" listbox by clicking.
+      //Action: Engage with the "Đến ngày" listbox by clicking.
+      //Action: Choose the "Đến ngày" listbox by clicking on it.
+      //Action: Click on the "Đến ngày" listbox option.
       driver.findElement(By.id("ContentPlaceHolder1_uc_zone_search_advance_todate")).click();
       Thread.sleep(1000);
 
-      //7.Select the date of ending time for filtering is 6.
+      //Action: Select the date of ending time for filtering is 6.
+      //Action: Choose 6 as the ending date for filtering.
+      //Action: Select 6 as the ending date for filtering.
+      //Action: Set the ending time for filtering to 6.
+      //Action: Specify 6 as the ending date for filtering.
+      //Action: Indicate that the ending time for filtering is 6.
       driver.findElement(By.linkText("6")).click();
 
-      //8. Click on the "Chuyên mục" listbox and then select "Tin Tức".
+      //Action: Click on the "Chuyên mục" listbox and then select "Tin Tức".
+      //Action: Click on the "Chuyên mục" listbox and then choose "Tin Tức".
+      //Action: Select "Tin Tức" after clicking on the "Chuyên mục" listbox.
+      //Action: Access the "Chuyên mục" listbox and then click "Tin Tức".
+      //Action: Engage with the "Chuyên mục" listbox and then select "Tin Tức".
+      //Action: Choose "Tin Tức" from the "Chuyên mục" listbox after clicking.
       driver.findElement(By.id("ddlChuyenMuc_select")).click();
       Thread.sleep(1000);
       {
@@ -83,7 +120,12 @@ public class SearchingTest1Test {
         dropdown.findElement(By.xpath("//option[. = 'Tin tức']")).click();
       }
 
-      // 9. Click on the first article appeared.
+      //Action: Click on the first article appeared.
+      //Action: Select the first appearing article with a click.
+      //Action: Access the first article that appears by clicking.
+      //Action: Engage with the first appearing article by clicking.
+      //Action: Choose the first article that appears by clicking on it.
+      //Action: Click on the first appearing article option.
       driver.findElement(By.cssSelector(".btn-search-nc")).click();
       Thread.sleep(1000);
       driver.close();

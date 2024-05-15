@@ -42,11 +42,14 @@ public class openArticalTNT {
     @Test
     public void openArticalTNT() {
 
-        //1. Access The New York Times website at "https://www.nytimes.com/".
-        //Visit The New York Times homepage.
-        //Navigate to The New York Times webpage using the provided URL.
-        //Direct the browser to The New York Times website.
-        //Open The New York Times site to read articles.
+        // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
+        // WEB URL :  "https://www.nytimes.com/"
+
+       //Action: Access The New York Times website at "https://www.nytimes.com/".
+        //Action: Visit The New York Times homepage.
+        //Action: Navigate to The New York Times webpage using the provided URL.
+        //Action: Direct the browser to The New York Times website.
+        //Action: Open The New York Times site to read articles.
         driver.get("https://www.nytimes.com/");
         driver.manage().window().setSize(new Dimension(1536, 816));
         {
@@ -60,11 +63,11 @@ public class openArticalTNT {
             builder.moveToElement(element, 0, 0).perform();
         }
 
-        //2.Select and click on the hyperlink labeled "World" on the webpage.
-        //Navigate to the "World" section by clicking on the corresponding link.
-        //Access the "World" category by clicking on the associated hyperlink.
-        //Follow the link labeled "World" to explore global news articles.
-        //Click on the link with the text "World" to view international news.
+        //Action: Select and click on the hyperlink labeled "World" on the webpage.
+        //Action: Navigate to the "World" section by clicking on the corresponding link.
+        //Action: Access the "World" category by clicking on the associated hyperlink.
+        //Action: Follow the link labeled "World" to explore global news articles.
+        //Action: Click on the link with the text "World" to view international news.
         {
             WebElement element = driver.findElement(By.linkText("World"));
             Actions builder = new Actions(driver);
@@ -72,11 +75,11 @@ public class openArticalTNT {
         }
         driver.findElement(By.linkText("World")).click();
 
-       //3.Select and click on the first article listed on the page.
-        //Navigate to the first article by clicking on its corresponding link.
-        // Click on the headline of the initial article to read its content.
-        // Access the content of the first article by clicking on its title.
-        // Proceed to read the first article on the page by clicking on its link.
+       //Action: Select and click on the first article listed on the page.
+        //Action: Navigate to the first article by clicking on its corresponding link.
+        //Action: Click on the headline of the initial article to read its content.
+        //Action: Access the content of the first article by clicking on its title.
+        //Action: Proceed to read the first article on the page by clicking on its link.
         {
             WebElement element = driver.findElement(By.cssSelector(".css-wcisuz:nth-child(6) > .css-1xphjhj"));
             Actions builder = new Actions(driver);

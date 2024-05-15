@@ -46,12 +46,15 @@ public class SearchingTestND2Test {
   }
   @Test
   public void searchingTestND2() {
-    // 1.Click on the url: "https://nhandan.vn/"
-    // Visit the website at the following URL: "https://nhandan.vn/".
-    // Access the link: 'https://nhandan.vn/".
-    // Navigate to 'https://nhandan.vn/' by clicking on the URL.
-    // Follow the hyperlink provided: 'https://nhandan.vn/'.
-    // Direct your browser to 'https://nhandan.vn/' by selecting the link
+    // GENERAL DESCRIPTION: this code is checking the filter article functionality of newspaper page.
+    // WEB URL "https://nhandan.vn/"
+
+    ///Action: Click on the URL: "https://nhandan.vn/"
+    //Action: Visit the website at the following URL: "https://nhandan.vn/".
+    //Action: Access the link: 'https://nhandan.vn/".
+    //Action: Navigate to 'https://nhandan.vn/' by clicking on the URL.
+    //Action: Follow the hyperlink provided: 'https://nhandan.vn/'.
+    //Action: Direct your browser to 'https://nhandan.vn/' by selecting the link.
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(1552, 832));
     {
@@ -60,15 +63,15 @@ public class SearchingTestND2Test {
       builder.moveToElement(element).perform();
     }
 
-    // 2. Click on the searching button.
+    //Action: Click on the searching button.
     driver.findElement(By.cssSelector(".search-button")).click();
     driver.findElement(By.cssSelector(".txtsearch")).click();
 
-    //3. Field "30/4" into the searching field and press Enter.
+    //Action: Field "30/4" into the searching field and press Enter.
     driver.findElement(By.cssSelector(".txtsearch")).sendKeys("30/4");
     driver.findElement(By.cssSelector(".txtsearch")).sendKeys(Keys.ENTER);
 
-    // 4. Find the 35rd article in the result page and click it.
+    //Action: Find the 35rd article in the result page and click it.
     waitForWindow(3000);
     driver.findElement(By.cssSelector(".control__loadmore")).click();
     waitForWindow(3000);

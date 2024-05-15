@@ -38,8 +38,8 @@ public class EditprofileTest {
   }
   @Test
   public void editprofile() throws InterruptedException {
-    // General description: edit profile
-    // Web URL: "https://nhandan.vn/"
+    // GENERAL DESCRIPTION: edit profile
+    // WEB URL: "https://nhandan.vn/"
 
     // Action: Open website "https://nhandan.vn/"
     // Action: Enter url https://nhandan.vn/

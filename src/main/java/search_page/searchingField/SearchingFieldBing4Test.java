@@ -52,8 +52,8 @@ public class SearchingFieldBing4Test {
   }
   @Test
   public void searchingFieldBing4() {
-    // General description: searching field bing test
-    // Web URL: https://www.bing.com/
+    // GENERAL DESCRIPTION: searching field bing test
+    // WEB URL: https://www.bing.com/
 
     // /1. Click on the url: "https://www.bing.com/" and sending "suicide" to the searching field.
     // Open the link "https://www.bing.com/" and input the term "suicide" into the search bar.

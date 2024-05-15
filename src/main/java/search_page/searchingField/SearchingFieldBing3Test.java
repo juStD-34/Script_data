@@ -39,8 +39,8 @@ public class SearchingFieldBing3Test {
   }
   @Test
   public void searchingFieldBing3() {
-      // General description: searching field bing test
-      // Web URL: https://www.bing.com/
+      // GENERAL DESCRIPTION: searching field bing test
+      // WEB URL: https://www.bing.com/
 
       //1. Click on the url: "https://www.bing.com/" and sending "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" to the searching field.
       driver.get("https://www.bing.com/search?form=&q=cdvnevker+eerjhrivjee%0D%0A+ievjevdscjfnv+icevvjnfvjev+iecdvvervdv&form=QBLH&sp=-1&lq=1&pq=cdvnevker+eerjhrivjee+ievjevdscjfnv+icevvjnfvjev+iecdvvervdv&sc=0-61&qs=n&sk=&cvid=BF8CB132394B462E9FC8DF24EFC7B756&ghsh=0&ghacc=0&ghpl=");

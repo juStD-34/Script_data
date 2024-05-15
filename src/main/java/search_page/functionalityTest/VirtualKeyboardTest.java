@@ -46,8 +46,8 @@ public class VirtualKeyboardTest {
   }
   @Test
   public void virtualKeyboard() {
-    // General description: test virtual keyboard
-    // Web URL: "https://www.google.com/"
+    // GENERAL DESCRIPTION: test virtual keyboard
+    // WEB URL: "https://www.google.com/"
 
     // 1. Click on the url: "https://www.google.com/"
     // Open searching page by clicking on the link: "https://www.google.com/"

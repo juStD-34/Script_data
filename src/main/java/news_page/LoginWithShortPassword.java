@@ -26,8 +26,8 @@ public class LoginWithShortPassword {
     }
     @Test
     public void logintest() throws InterruptedException, UnhandledAlertException {
-        // General description : This code tests the function login to the website https://nhandan.vn/ with password which length is less than 6
-        // Web URL: https://nhandan.vn/
+        // GENERAL DESCRIPTION : This code tests the function login to the website https://nhandan.vn/ with password which length is less than 6
+        // WEB URL: https://nhandan.vn/
 
         // Action: Open website "https://nhandan.vn/"
         driver.get("https://nhandan.vn/");

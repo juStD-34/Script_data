@@ -40,6 +40,8 @@ public class OpenArticleTNMTTest {
   }
   @Test
   public void openArticleTNMT() {
+    // GENERAL DESCRIPTION: this code is checking the opening article activity on the newspaper page.
+    // WEB URL : "https://baotainguyenmoitruong.vn/"
 
     //1. Direct the WebDriver to the BaoTainguyenmoitruong website at "https://baotainguyenmoitruong.vn/".
     //Access the BaoTainguyenmoitruong homepage using the provided URL.

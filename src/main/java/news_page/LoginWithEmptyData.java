@@ -26,8 +26,8 @@ public class LoginWithEmptyData {
     }
     @Test
     public void logintest() throws InterruptedException, UnhandledAlertException {
-        // General description : This code tests the function login to the website https://nhandan.vn/ with both the username and password are empty
-        // Web URL: https://nhandan.vn/
+        // GENERAL DESCRIPTION : This code tests the function login to the website https://nhandan.vn/ with both the username and password are empty
+        // WEB URL: https://nhandan.vn/
 
         // Action: Open website "https://nhandan.vn/"
         driver.get("https://nhandan.vn/");

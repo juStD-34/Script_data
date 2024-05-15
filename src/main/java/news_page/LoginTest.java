@@ -29,8 +29,8 @@ public class LoginTest {
   }
   @Test
   public void logintest() throws InterruptedException {
-    // General description : This code tests the function login to the website https://nhandan.vn/
-    // Web URL: https://nhandan.vn/
+    // GENERAL DESCRIPTION : This code tests the function login to the website https://nhandan.vn/
+    // WEB URL: https://nhandan.vn/
 
     // Action: Open website "https://nhandan.vn/"
     // Action: Enter url https://nhandan.vn/

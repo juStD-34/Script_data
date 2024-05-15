@@ -45,8 +45,8 @@ public class ChangeToChineseTest {
     }
     @Test
     public void changeToChinese() {
-        // General description : This code tests the function change language to Chinese of the website https://nhandan.vn/
-        // Web URL: https://nhandan.vn/
+        // GENERAL DESCRIPTION : This code tests the function change language to Chinese of the website https://nhandan.vn/
+        // WEB URL: https://nhandan.vn/
 
         // Action: Open website "https://nhandan.vn/"
         // Action: Enter url https://nhandan.vn/
