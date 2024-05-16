@@ -39,12 +39,15 @@ public class SearchingFieldGoogle4Test {
   }
   @Test
   public void searchingFieldGoogle4() {
-    // GENERAL DESCRIPTION: searching field test
-    // WEB URL: https://www.google.com/
+    // GENERAL DESCRIPTION: this code is checking the searching field of searching tool Google with meaningless input.
+    // WEB URL : "https://www.google.com/"
 
-    // 1. Click on the url "https://www.google.com/" and field "cdvnevker eerjhrivjee
-    // ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the searching field.
-
+    //Action: Click on the url "https://www.google.com/" and field "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the searching field.
+    //Action: Click on the URL "https://www.google.com/" and enter "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the search field.
+    //Action: Visit the URL "https://www.google.com/" and type "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the search box.
+    //Action: Open the URL "https://www.google.com/" and input "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the search field.
+    //Action: Navigate to the URL "https://www.google.com/" and put "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the search field.
+    //Action: Access the URL "https://www.google.com/" and insert "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the search field.
     driver.get("https://www.google.com/search?q=cdvnevker+eerjhrivjee%0D%0A+ievjevdscjfnv+icevvjnfvjev+iecdvvervdv&sca_esv=3d5aec0ebbda9031&sxsrf=ACQVn09osP4hmWauoyd8B8lY0chMTBwZOA%3A1712618206638&source=hp&ei=3noUZrP4JMuB2roP9pir2Aw&iflsig=ANes7DEAAAAAZhSI7u9hF1CqEuh7E5WAwjQBRLocR05H&udm=&ved=0ahUKEwiz39z-37OFAxXLgFYBHXbMCssQ4dUDCBU&uact=5&oq=cdvnevker+eerjhrivjee%0D%0A+ievjevdscjfnv+icevvjnfvjev+iecdvvervdv&gs_lp=Egdnd3Mtd2l6Ij1jZHZuZXZrZXIgZWVyamhyaXZqZWUKIGlldmpldmRzY2pmbnYgaWNldnZqbmZ2amV2IGllY2R2dmVydmR2SABQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAvgBAZgCAKACAJgDAJIHAKAHAA&sclient=gws-wiz");
     driver.manage().window().setSize(new Dimension(784, 804));
     driver.close();

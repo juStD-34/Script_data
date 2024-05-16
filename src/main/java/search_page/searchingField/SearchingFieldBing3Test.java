@@ -39,10 +39,14 @@ public class SearchingFieldBing3Test {
   }
   @Test
   public void searchingFieldBing3() {
-      // GENERAL DESCRIPTION: searching field bing test
-      // WEB URL: https://www.bing.com/
+    // General Description: this code is checking the searching field of searching tool Bing with meaningless input.
+    // WEB URL : "https://www.bing.com/"
 
-      //1. Click on the url: "https://www.bing.com/" and sending "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" to the searching field.
+    //Action: Click on the url: "https://www.bing.com/" and enter "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the search field.
+    //Action: Visit the url: "https://www.bing.com/" and type "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the search box.
+    //Action: Open the url: "https://www.bing.com/" and input "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" in the search field.
+    //Action: Go to the url: "https://www.bing.com/" and paste "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the search field.
+    //Action: Navigate to the url: "https://www.bing.com/" and insert "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the search field.
       driver.get("https://www.bing.com/search?form=&q=cdvnevker+eerjhrivjee%0D%0A+ievjevdscjfnv+icevvjnfvjev+iecdvvervdv&form=QBLH&sp=-1&lq=1&pq=cdvnevker+eerjhrivjee+ievjevdscjfnv+icevvjnfvjev+iecdvvervdv&sc=0-61&qs=n&sk=&cvid=BF8CB132394B462E9FC8DF24EFC7B756&ghsh=0&ghacc=0&ghpl=");
       driver.manage().window().setSize(new Dimension(787, 807));
 
