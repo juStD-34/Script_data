@@ -39,19 +39,24 @@ public class SearchingFieldGoogleTest {
   }
   @Test
   public void searchingFieldGoogle() {
+    // General Description: this code is checking the searching field of searching tool Google with random topic.
+    // WEB URL: "https://www.google.com/"
     try {
-      // 1. Click on the url: "https://www.google.com/"
-      // 2. Field "total solar eclipse" in the searching field
+      //Action: Click on the url: "https://www.google.com/" and field "total solar eclipse" in the searching fiel
+      //Action: Click on the URL: "https://www.google.com/" and enter "total solar eclipse" into the search field.
+      //Action: Visit the URL: "https://www.google.com/" and type "total solar eclipse" into the search box.
+      //Action: Open the URL: "https://www.google.com/" and input "total solar eclipse" into the search field.
+      //Action: Navigate to the URL: "https://www.google.com/" and put "total solar eclipse" into the search field.
+      //Action: Access the URL: "https://www.google.com/" and insert "total solar eclipse" into the search field.
       driver.get("https://www.google.com/search?q=total+solar+eclipse&sca_esv=3d5aec0ebbda9031&sxsrf=ACQVn0_YF72oVt5N0CBlMht2RhdiR9WVZA%3A1712615214241&source=hp&ei=Lm8UZqPTDJy52roPrduimAY&iflsig=ANes7DEAAAAAZhR9PrZ5E6l97eIzEkD2Dxr_7wWuQzO-&udm=&ved=0ahUKEwijouvr1LOFAxWcnFYBHa2tCGMQ4dUDCBU&uact=5&oq=total+solar+eclipse&gs_lp=Egdnd3Mtd2l6IhN0b3RhbCBzb2xhciBlY2xpcHNlMgoQIxiABBiKBRgnMgQQABgDMgUQABiABDILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAAGIAEGLEDGIMBMgYQABgWGB4yBhAAGBYYHkihUFAAWIZIcAZ4AJABAJgB4gGgAZQXqgEGOS4xNC4yuAEDyAEA-AEBmAIfoAKnGKgCCsICChAuGIAEGIoFGEPCAhEQLhiABBixAxiDARjHARjRA8ICDxAjGIAEGIoFGCcYRhj_AcICBBAjGCfCAgoQABiABBiKBRhDwgILEC4YgAQYsQMYgwHCAhAQABiABBiKBRhDGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQABiABBixA8ICCBAuGIAEGLEDwgIREC4YgAQYxwEYrwEYmAUYmQXCAgsQLhiABBjHARivAcICBxAjGOoCGCfCAgwQIxiABBiKBRgTGCfCAg4QLhiDARjUAhixAxiABMICBRAuGIAEmAMFkgcHMTQuMTQuM6AHhOYB&sclient=gws-wiz");
       driver.manage().window().setSize(new Dimension(784, 804));
       Thread.sleep(3000);
 
-      //3. Click on the first result appeared in the new page.
-      // Select the initial result that shows up on the fresh page.
-      //Choose the first outcome displayed on the newly opened page.
-      //Click on the initial search result visible on the recently loaded page.
-      //Opt for the first link that appears on the newly opened page.
-      //Click on the primary result presented on the fresh page.
+      //Action: An announcement appears at the top of the result page. Click the "Call" button.
+      //Action: A notification is displayed at the top of the result page. Click the "Call" button.
+      //Action: At the top of the result page, there is an announcement. Click the "Call" button.
+      //Action: An alert shows up at the top of the result page. Click the "Call" button.
+      //Action: There is an announcement at the top of the result page. Click the "Call" button.
       driver.findElement(By.cssSelector(".hlcw0c:nth-child(1) .LC20lb:nth-child(2)")).click();
       driver.close();
     } catch(InterruptedException e) {

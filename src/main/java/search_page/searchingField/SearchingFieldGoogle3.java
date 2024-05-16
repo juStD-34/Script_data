@@ -39,34 +39,27 @@ public class SearchingFieldGoogle3 {
   }
   @Test
   public void searchingFieldGoogle3() {
+    // General Description: this code is checking the searching field of searching tool Google with long input, which the first haft and the latter haft have the different meaning.
+    // WEB URL :  "https://www.google.com/"
     try {
 
-      // 1. Click on the url :  "https://www.google.com/"
-      // 2. Field this paragraph into the searching field: "The weather
-      // outside is crisp and clear, with a gentle breeze blowing
-      //through the trees, signaling the arrival of autumn. The
-      // sun casts a warm glow across the landscape, painting
-      // the sky with hues of orange and pink as it begins to set
-      // behind the horizon. Meanwhile, inside, the atmosphere
-      //is buzzing with excitement as movie night approaches.
-      // Popcorn is popping, drinks are chilling, and anticipation
-      //fills the air as friends gather to watch the latest blockbuster
-      // on the big screen. Laughter, gasps, and cheers fill the room
-      // as the movie unfolds, transporting everyone to a world of
-      //adventure, romance, and intrigue."
+      //Action: Click on the URL: "https://www.google.com/" and enter this paragraph into the search field: "The weather outside is crisp and clear, with a gentle breeze blowing through the trees, signaling the arrival of autumn. The sun casts a warm glow across the landscape, painting the sky with hues of orange and pink as it begins to set behind the horizon. Meanwhile, inside, the atmosphere is buzzing with excitement as movie night approaches. Popcorn is popping, drinks are chilling, and anticipation fills the air as friends gather to watch the latest blockbuster on the big screen. Laughter, gasps, and cheers fill the room as the movie unfolds, transporting everyone to a world of adventure, romance, and intrigue."
+      //Action: Visit the URL: "https://www.google.com/" and type this paragraph into the search box: "The weather outside is crisp and clear, with a gentle breeze blowing through the trees, signaling the arrival of autumn. The sun casts a warm glow across the landscape, painting the sky with hues of orange and pink as it begins to set behind the horizon. Meanwhile, inside, the atmosphere is buzzing with excitement as movie night approaches. Popcorn is popping, drinks are chilling, and anticipation fills the air as friends gather to watch the latest blockbuster on the big screen. Laughter, gasps, and cheers fill the room as the movie unfolds, transporting everyone to a world of adventure, romance, and intrigue."
+      //Action: Open the URL: "https://www.google.com/" and input this paragraph into the search field: "The weather outside is crisp and clear, with a gentle breeze blowing through the trees, signaling the arrival of autumn. The sun casts a warm glow across the landscape, painting the sky with hues of orange and pink as it begins to set behind the horizon. Meanwhile, inside, the atmosphere is buzzing with excitement as movie night approaches. Popcorn is popping, drinks are chilling, and anticipation fills the air as friends gather to watch the latest blockbuster on the big screen. Laughter, gasps, and cheers fill the room as the movie unfolds, transporting everyone to a world of adventure, romance, and intrigue."
+      //Action: Navigate to the URL: "https://www.google.com/" and put this paragraph into the search field: "The weather outside is crisp and clear, with a gentle breeze blowing through the trees, signaling the arrival of autumn. The sun casts a warm glow across the landscape, painting the sky with hues of orange and pink as it begins to set behind the horizon. Meanwhile, inside, the atmosphere is buzzing with excitement as movie night approaches. Popcorn is popping, drinks are chilling, and anticipation fills the air as friends gather to watch the latest blockbuster on the big screen. Laughter, gasps, and cheers fill the room as the movie unfolds, transporting everyone to a world of adventure, romance, and intrigue."
+      //Action: Access the URL: "https://www.google.com/" and insert this paragraph into the search field: "The weather outside is crisp and clear, with a gentle breeze blowing through the trees, signaling the arrival of autumn. The sun casts a warm glow across the landscape, painting the sky with hues of orange and pink as it begins to set behind the horizon. Meanwhile, inside, the atmosphere is buzzing with excitement as movie night approaches. Popcorn is popping, drinks are chilling, and anticipation fills the air as friends gather to watch the latest blockbuster on the big screen. Laughter, gasps, and cheers fill the room as the movie unfolds, transporting everyone to a world of adventure, romance, and intrigue."
       driver.get("https://www.google.com/search?q=The+weather%0D%0A+outside+is+crisp+and+clear%2C+with+a+gentle+breeze+blowing+%0D%0Athrough+the+trees%2C+signaling+the+arrival+of+autumn.+The%0D%0A+sun+casts+a+warm+glow+across+the+landscape%2C+painting%0D%0A+the+sky+with+hues+of+orange+and+pink+as+it+begins+to+set%0D%0A+behind+the+horizon.+Meanwhile%2C+inside%2C+the+atmosphere+%0D%0Ais+buzzing+with+excitement+as+movie+night+approaches.%0D%0A+Popcorn+is+popping%2C+drinks+are+chilling%2C+and+anticipation+%0D%0Afills+the+air+as+friends+gather+to+watch+the+latest+blockbuster%0D%0A+on+the+big+screen.+Laughter%2C+gasps%2C+and+cheers+fill+the+room%0D%0A+as+the+movie+unfolds%2C+transporting+everyone+to+a+world+of+%0D%0Aadventure%2C+romance%2C+and+intrigue&sca_esv=3d5aec0ebbda9031&sxsrf=ACQVn0-EwBu2S8220-vcAkXsjIgcHr7a9g%3A1712617949837&source=hp&ei=3XkUZuG1MMrd2roPtfyHyAo&iflsig=ANes7DEAAAAAZhSH7d8-_-NYmlCYcarUm-OwbU70EhFW&udm=&ved=0ahUKEwihmKKE37OFAxXKrlYBHTX-AakQ4dUDCBU&uact=5&oq=The+weather%0D%0A+outside+is+crisp+and+clear%2C+with+a+gentle+breeze+blowing+%0D%0Athrough+the+trees%2C+signaling+the+arrival+of+autumn.+The%0D%0A+sun+casts+a+warm+glow+across+the+landscape%2C+painting%0D%0A+the+sky+with+hues+of+orange+and+pink+as+it+begins+to+set%0D%0A+behind+the+horizon.+Meanwhile%2C+inside%2C+the+atmosphere+%0D%0Ais+buzzing+with+excitement+as+movie+night+approaches.%0D%0A+Popcorn+is+popping%2C+drinks+are+chilling%2C+and+anticipation+%0D%0Afills+the+air+as+friends+gather+to+watch+the+latest+blockbuster%0D%0A+on+the+big+screen.+Laughter%2C+gasps%2C+and+cheers+fill+the+room%0D%0A+as+the+movie+unfolds%2C+transporting+everyone+to+a+world+of+%0D%0Aadventure%2C+romance%2C+and+intrigue&gs_lp=Egdnd3Mtd2l6IvMEVGhlIHdlYXRoZXIKIG91dHNpZGUgaXMgY3Jpc3AgYW5kIGNsZWFyLCB3aXRoIGEgZ2VudGxlIGJyZWV6ZSBibG93aW5nIAp0aHJvdWdoIHRoZSB0cmVlcywgc2lnbmFsaW5nIHRoZSBhcnJpdmFsIG9mIGF1dHVtbi4gVGhlCiBzdW4gY2FzdHMgYSB3YXJtIGdsb3cgYWNyb3NzIHRoZSBsYW5kc2NhcGUsIHBhaW50aW5nCiB0aGUgc2t5IHdpdGggaHVlcyBvZiBvcmFuZ2UgYW5kIHBpbmsgYXMgaXQgYmVnaW5zIHRvIHNldAogYmVoaW5kIHRoZSBob3Jpem9uLiBNZWFud2hpbGUsIGluc2lkZSwgdGhlIGF0bW9zcGhlcmUgCmlzIGJ1enppbmcgd2l0aCBleGNpdGVtZW50IGFzIG1vdmllIG5pZ2h0IGFwcHJvYWNoZXMuCiBQb3Bjb3JuIGlzIHBvcHBpbmcsIGRyaW5rcyBhcmUgY2hpbGxpbmcsIGFuZCBhbnRpY2lwYXRpb24gCmZpbGxzIHRoZSBhaXIgYXMgZnJpZW5kcyBnYXRoZXIgdG8gd2F0Y2ggdGhlIGxhdGVzdCBibG9ja2J1c3Rlcgogb24gdGhlIGJpZyBzY3JlZW4uIExhdWdodGVyLCBnYXNwcywgYW5kIGNoZWVycyBmaWxsIHRoZSByb29tCiBhcyB0aGUgbW92aWUgdW5mb2xkcywgdHJhbnNwb3J0aW5nIGV2ZXJ5b25lIHRvIGEgd29ybGQgb2YgCmFkdmVudHVyZSwgcm9tYW5jZSwgYW5kIGludHJpZ3VlSABQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAvgBAZgCAKACAJgDAJIHAKAHAA&sclient=gws-wiz");
       driver.manage().window().setSize(new Dimension(784, 804));
       js.executeScript("window.scrollTo(0,24.799999237060547)");
       Thread.sleep(3000);
 
-      // 3. Click on the first result apppeared.
-      // 3. Select the latest result appeared.
-      //3. Click on the first result appeared in the new page.
-      // Select the initial result that shows up on the fresh page.
-      //Choose the first outcome displayed on the newly opened page.
-      //Click on the initial search result visible on the recently loaded page.
-      //Opt for the first link that appears on the newly opened page.
-      //Click on the primary result presented on the fresh page.
+      //Action: Click on the first result appeared.
+      //Action: Click on the first result appeared in the new page.
+      //Action: Select the initial result that shows up on the fresh page.
+      //Action: Choose the first outcome displayed on the newly opened page.
+      //Action: Click on the initial search result visible on the recently loaded page.
+      //Action: Opt for the first link that appears on the newly opened page.
+      //Action: Click on the primary result presented on the fresh page.
       driver.findElement(By.cssSelector(".g:nth-child(10) .LC20lb")).click();
       driver.close();
     } catch(InterruptedException e) {

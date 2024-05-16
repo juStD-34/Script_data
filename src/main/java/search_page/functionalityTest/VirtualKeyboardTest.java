@@ -46,25 +46,33 @@ public class VirtualKeyboardTest {
   }
   @Test
   public void virtualKeyboard() {
+    // General Description: this code is checking the searching tool Google with virtual keyboard.
+    // WEB URL : "https://www.google.com/"
 
-    // 1. Click on the url: "https://www.google.com/"
-    // Open searching page by clicking on the link: "https://www.google.com/"
+    //Action: Click on the url: "https://www.google.com/"
+    //Action: Click on the URL: "https://www.google.com/".
+    //Action: Visit the URL: "https://www.google.com/".
+    //Action: Open the URL: "https://www.google.com/".
+    //Action: Navigate to the URL: "https://www.google.com/".
+    //Action: Access the URL: "https://www.google.com/".
     driver.get("https://www.google.com/");
     driver.manage().window().maximize();
     waitForWindow(3000);
 
-    // 2. CLick on the Virtual Keyboard button.
-    // Click on the keyboard button in the end of the searching field.
+    //Action: Click on the keyboard button at the end of the search field.
+    //Action: Press the keyboard button located at the end of the search field.
+    //Action: Select the keyboard button positioned at the end of the search field.
+    //Action: Click on the keyboard icon situated at the end of the search field.
+    //Action: Activate the keyboard button found at the end of the search field.
     driver.findElement(By.cssSelector(".ly0Ckb")).click();
     waitForWindow(3000);
 
-    // 3. Type "tiktok" into the searching field by virtual keyboard.
-    // Field "tiktok" by typing text on virtual keyboard.
-    // Input "tiktok" into the search field using the virtual keyboard.
-    //Enter the term "tiktok" into the search field using the virtual keyboard.
-    //Key in "tiktok" via the virtual keyboard into the search field.
-    //Type out "tiktok" using the virtual keyboard in the search field.
-    //Use the virtual keyboard to input "tiktok" into the search field.
+    //Action: Type "TikTok" into the searching field by virtual keyboard.
+    //Action: Input "tiktok" into the search field using the virtual keyboard.
+    //Action: Enter "tiktok" into the search field via the virtual keyboard.
+    //Action: Type "tiktok" on the virtual keyboard and input it into the search field.
+    //Action: Use the virtual keyboard to type "TikTok" into the search field.
+    //Action: Input "tiktok" into the search field by using the virtual keyboard.
     {
       WebElement element = driver.findElement(By.cssSelector(".vk-t"));
       Actions builder = new Actions(driver);
@@ -106,22 +114,20 @@ public class VirtualKeyboardTest {
     driver.findElement(By.id("APjFqb")).click();
     waitForWindow(3000);
 
-    // 4. Click on the first suggested keyword.
-    // Click on the "tiktok" on the suggested list under the searching field.
-    //Select "tiktok" from the list of suggestions below the search field and click on it.
-    //Choose "tiktok" from the suggested options under the search field and proceed with a click.
-    //Opt for "tiktok" from the list of recommendations beneath the search field and give it a click.
-    //Click on "tiktok" from the suggestions listed below the search field to proceed.
-    //Choose the option "tiktok" from the suggested list under the search field and click on it.
+    //Action: Click on the first suggested keyword.
+    //Action: Click on the "TikTok" on the suggested list under the searching field.
+    //Action: Select "tiktok" from the list of suggestions below the search field and click on it.
+    //Action: Choose "tiktok" from the suggested options under the search field and proceed with a click.
     driver.findElement(By.xpath("//div[@id=\'jZ2SBf\']/div/span")).click();
       waitForWindow(3000);
 
-    // Click on the first result appeared in the new page.
-    // Select the initial result that shows up on the fresh page.
-    //Choose the first outcome displayed on the newly opened page.
-    //Click on the initial search result visible on the recently loaded page.
-    //Opt for the first link that appears on the newly opened page.
-    //Click on the primary result presented on the fresh page.
+    //Action: Click on the first result appeared.
+    //Action: Click on the first result appeared in the new page.
+    //Action: Select the initial result that shows up on the fresh page.
+    //Action: Choose the first outcome displayed on the newly opened page.
+    //Action: Click on the initial search result visible on the recently loaded page.
+    //Action: Opt for the first link that appears on the newly opened page.
+    //Action: Click on the primary result presented on the fresh page.
     driver.findElement(By.cssSelector(".tF2Cxc > .yuRUbf .LC20lb")).click();
     driver.close();
   }

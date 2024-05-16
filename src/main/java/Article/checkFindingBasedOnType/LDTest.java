@@ -68,11 +68,6 @@ public class LDTest {
     //Action: Click on the "Ý kiến - Hồi âm" option.
     driver.findElement(By.linkText("Ý kiến - Hồi âm")).click();
     js.executeScript("window.scrollTo(0,70)");
-    {
-      WebElement element = driver.findElement(By.tagName("body"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element, 0, 100).perform();
-    }
     // Action: Click on the first article on the page.
     //Action: Selecting the initial article on the page with a click.
     //Action: Accessing the first article on the page by clicking.

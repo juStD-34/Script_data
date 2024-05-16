@@ -39,20 +39,24 @@ public class SearchingFieldBingTest {
   }
   @Test
   public void searchingFieldBing() {
+    // General Description: this code is checking the searching field of searching tool Bing with a random topic.
+    // WEB URL : "https://www.bing.com/"
 
-    //1. Click on the url "ttps://www.bing.com/" and field "total solar eclipse" into the searching field.
-    // 1. Open the bing search by link "ttps://www.bing.com/" and type "total solar eclipse" into the searching field.
+    //Action: Click on the URL "https://www.bing.com/" and enter "total solar eclipse" into the search field.
+    //Action: Visit the URL "https://www.bing.com/" and type "total solar eclipse" into the search box.
+    //Action: Open the URL "https://www.bing.com/" and input "total solar eclipse" into the search field.
+    //Action: Navigate to the URL "https://www.bing.com/" and put "total solar eclipse" into the search field.
+    //Action: Access the URL "https://www.bing.com/" and insert "total solar eclipse" into the search field.
     driver.get("https://www.bing.com/search?form=&q=total+solar+eclipse&form=QBLH&sp=-1&ghc=1&lq=0&pq=total+solar+eclipse&sc=10-19&qs=n&sk=&cvid=44B92D25F2B540238ACC149D538C725D&ghsh=0&ghacc=0&ghpl=");
     driver.manage().window().setSize(new Dimension(784, 804));
 
-    // 2. Click on the first result you see.
-    // 2. Click on the first link appeared on the result page.
-    // Click on the first result appeared in the new page.
-    // Select the initial result that shows up on the fresh page.
-    //Choose the first outcome displayed on the newly opened page.
-    //Click on the initial search result visible on the recently loaded page.
-    //Opt for the first link that appears on the newly opened page.
-    //Click on the primary result presented on the fresh page.
+    //Action: Click on the first result appeared.
+    //Action: Click on the first result appeared in the new page.
+    //Action: Select the initial result that shows up on the fresh page.
+    //Action: Choose the first outcome displayed on the newly opened page.
+    //Action: Click on the initial search result visible on the recently loaded page.
+    //Action: Opt for the first link that appears on the newly opened page.
+    //Action: Click on the primary result presented on the fresh page.
     driver.findElement(By.linkText("Total Solar Eclipses Worldwide – Next 10 Years - timeanddate.com")).click();
     driver.close();
   }
