@@ -39,7 +39,7 @@ public class SearchingFieldGoogle4Test {
   }
   @Test
   public void searchingFieldGoogle4() {
-    // General Description: this code is checking the searching field of searching tool Google with meaningless input.
+    // GENERAL DESCRIPTION: this code is checking the searching field of searching tool Google with meaningless input.
     // WEB URL : "https://www.google.com/"
 
     //Action: Click on the url "https://www.google.com/" and field "cdvnevker eerjhrivjee ievjevdscjfnv icevvjnfvjev iecdvvervdv" into the searching field.

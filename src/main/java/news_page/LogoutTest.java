@@ -38,6 +38,9 @@ public class LogoutTest {
   }
   @Test
   public void logout() throws InterruptedException {
+    // GENERAL DESCRIPTION: logout
+    // WEB URL: "https://nhandan.vn/"
+
     // Action: Open website "https://nhandan.vn/"
     driver.get("https://nhandan.vn/");
     driver.manage().window().setSize(new Dimension(804, 816));
@@ -46,11 +49,11 @@ public class LogoutTest {
     Thread.sleep(3000);
     // Action: Click on Email text field
     driver.findElement(By.id("txtLoginEmail")).click();
-    // Action: Enter email
+    // Action: Enter "thht200603@gmail.com" into email field
     driver.findElement(By.id("txtLoginEmail")).sendKeys("thht200603@gmail.com");
     // Action: Click on Password text field
     driver.findElement(By.id("txtLoginPassword")).click();
-    // Action: Enter password
+    // Action: Enter "123456789" into password field
     driver.findElement(By.id("txtLoginPassword")).sendKeys("123456789");
     // Action: Press ENTER
     driver.findElement(By.id("txtLoginPassword")).sendKeys(Keys.ENTER);

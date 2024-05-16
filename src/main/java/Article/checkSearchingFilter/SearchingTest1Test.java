@@ -44,8 +44,8 @@ public class SearchingTest1Test {
   @Test
   public void searchingTest1() {
 
-    // General Description: this code is checking the filter article functionality of newspaper page.
-    // web URL "https://vietnamnet.vn/"
+    // GENERAL DESCRIPTION: this code is checking the filter article functionality of newspaper page.
+    // WEB URL "https://vietnamnet.vn/"
 
     try {
       //Action: Direct the WebDriver to the Vietnamnet website at "https://vietnamnet.vn/".

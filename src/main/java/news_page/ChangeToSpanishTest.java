@@ -45,11 +45,17 @@ public class ChangeToSpanishTest {
     }
     @Test
     public void changeToRussian() {
+        // GENERAL DESCRIPTION : This code tests the function change language to Spanish of the website https://nhandan.vn/
+        // WEB URL: https://nhandan.vn/
+
         // Action: Open website "https://nhandan.vn/"
+        // Action: Enter url https://nhandan.vn/
+        // Action: Visit https://nhandan.vn/
         driver.get("https://nhandan.vn/");
         driver.manage().window().setSize(new Dimension(1552, 832));
         vars.put("window_handles", driver.getWindowHandles());
         // Action: Click on Español at the top bar
+        // Action: Click the text Español at the top bar
         driver.findElement(By.linkText("Español")).click();
         vars.put("win8086", waitForWindow(2000));
         driver.switchTo().window(vars.get("win8086").toString());

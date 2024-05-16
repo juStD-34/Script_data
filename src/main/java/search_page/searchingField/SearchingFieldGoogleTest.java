@@ -39,7 +39,7 @@ public class SearchingFieldGoogleTest {
   }
   @Test
   public void searchingFieldGoogle() {
-    // General Description: this code is checking the searching field of searching tool Google with random topic.
+    // GENERAL DESCRIPTION: this code is checking the searching field of searching tool Google with random topic.
     // WEB URL: "https://www.google.com/"
     try {
       //Action: Click on the url: "https://www.google.com/" and field "total solar eclipse" in the searching fiel

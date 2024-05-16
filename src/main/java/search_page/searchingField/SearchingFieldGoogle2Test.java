@@ -39,8 +39,10 @@ public class SearchingFieldGoogle2Test {
   }
   @Test
   public void searchingFieldGoogle2() {
+
     // General Description: this code is checking the searching field of searching tool Google with negative content.
     // WEB URL : "https://www.google.com/"
+
     try {
       //Action: Click on the URL: "https://www.google.com/" and enter "suicide" into the search field.
       //Action: Visit the URL: "https://www.google.com/" and type "suicide" into the search box.

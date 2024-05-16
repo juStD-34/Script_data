@@ -39,8 +39,8 @@ public class MostReadTest {
   }
   @Test
   public void mostRead() {
-    // General Description: This test is going to check if the most read article of a newspaper page is working from any context appearing this property.
-    // Web url: https://nhandan.vn/
+    // GENERAL DESCRIPTION: This test is going to check if the most read article of a newspaper page is working from any context appearing this property.
+    // WEB URL: https://nhandan.vn/
 
     // Action: Open the url "https://nhandan.vn/"
     // Action: Access the webpage "https://nhandan.vn/"

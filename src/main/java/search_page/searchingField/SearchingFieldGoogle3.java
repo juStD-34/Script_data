@@ -39,8 +39,9 @@ public class SearchingFieldGoogle3 {
   }
   @Test
   public void searchingFieldGoogle3() {
-    // General Description: this code is checking the searching field of searching tool Google with long input, which the first haft and the latter haft have the different meaning.
+    // GENERAL DESCRIPTION: this code is checking the searching field of searching tool Google with long input, which the first haft and the latter haft have the different meaning.
     // WEB URL :  "https://www.google.com/"
+
     try {
 
       //Action: Click on the URL: "https://www.google.com/" and enter this paragraph into the search field: "The weather outside is crisp and clear, with a gentle breeze blowing through the trees, signaling the arrival of autumn. The sun casts a warm glow across the landscape, painting the sky with hues of orange and pink as it begins to set behind the horizon. Meanwhile, inside, the atmosphere is buzzing with excitement as movie night approaches. Popcorn is popping, drinks are chilling, and anticipation fills the air as friends gather to watch the latest blockbuster on the big screen. Laughter, gasps, and cheers fill the room as the movie unfolds, transporting everyone to a world of adventure, romance, and intrigue."

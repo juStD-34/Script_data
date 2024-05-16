@@ -40,8 +40,8 @@ public class TNMT2Test {
   @Test
   public void tNMT2() {
 
-    // General Description: this test well checking reading article by topic.
-    // Web URL: "https://baotainguyenmoitruong.vn/"
+    // GENERAL DESCRIPTION: this test well checking reading article by topic.
+    // WEB URL: "https://baotainguyenmoitruong.vn/"
 
     // Action: Open the url "https://baotainguyenmoitruong.vn/"
     //Action: Access the webpage "https://baotainguyenmoitruong.vn/"

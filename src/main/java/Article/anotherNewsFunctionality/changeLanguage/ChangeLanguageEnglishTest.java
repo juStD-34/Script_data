@@ -52,8 +52,8 @@ public class ChangeLanguageEnglishTest {
   }
   @Test
   public void changeLanguageEnglish() {
-    // General Description: This test is about checking whether newspaper works well in another language.
-    // Web url: https://nhandan.vn/
+    // GENERAL DESCRIPTION: This test is about checking whether newspaper works well in another language.
+    // WEB URL: https://nhandan.vn/
 
     // Action: Open the url "https://nhandan.vn/"
     // Action: Access the webpage "https://nhandan.vn/"

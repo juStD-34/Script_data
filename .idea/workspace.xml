@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToChineseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/news_page/ChangeToFrenchTest.java" afterDir="false" />
+    <list default="true" id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/weather/SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weather/ViewDetailOfLocation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,37 +28,54 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
+    &quot;associatedIndex&quot;: 6
+    }</component>
   <component name="ProjectId" id="2eiSIceLVG0kWPKdEO2yA3qxRoc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.ChangeToChineseTest.changeToChinese.executor": "Run",
     "JUnit.ChangeToEnglishTest.changeToEnglish.executor": "Run",
     "JUnit.EditprofileTest.editprofile.executor": "Run",
     "JUnit.LoginTest.executor": "Run",
     "JUnit.LoginTest.logintest.executor": "Run",
+    "JUnit.LoginWithEmptyData.logintest.executor": "Run",
+    "JUnit.LoginWithFacebook.loginWithFacebook.executor": "Run",
+    "JUnit.LoginWithGoogle.loginWithGoogle.executor": "Run",
+    "JUnit.LoginWithShortPassword.logintest.executor": "Run",
+    "JUnit.LoginWithWrongPassword.logintest.executor": "Run",
+    "JUnit.LoginWithWrongUsername.logintest.executor": "Run",
     "JUnit.LogintestTest.logintest.executor": "Run",
     "JUnit.LogoutTest.logout.executor": "Run",
     "JUnit.RecentReadTest.editprofile.executor": "Run",
     "JUnit.SavedNewsTest.viewSavedNews.executor": "Run",
+    "JUnit.SearchTest.search.executor": "Run",
+    "JUnit.ViewDetailOfLocation.search.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Script_data",
+    "last_opened_file_path": "C:/Users/HP/Desktop/IntelliJ/Script_data/src/main/java/results",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ChangeToSpanishTest.changeToRussian">
-    <configuration name="ChangeToChineseTest.changeToChinese" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\IntelliJ\Script_data\src\main\java\results" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ViewDetailOfLocation.search">
+    <configuration name="LoginTest.logintest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
         <pattern>
@@ -67,14 +84,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="news_page" />
-      <option name="MAIN_CLASS_NAME" value="news_page.ChangeToChineseTest" />
-      <option name="METHOD_NAME" value="changeToChinese" />
+      <option name="MAIN_CLASS_NAME" value="news_page.LoginTest" />
+      <option name="METHOD_NAME" value="logintest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeToEnglishTest.changeToEnglish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginWithFacebook.loginWithFacebook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
         <pattern>
@@ -83,14 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="news_page" />
-      <option name="MAIN_CLASS_NAME" value="news_page.ChangeToEnglishTest" />
-      <option name="METHOD_NAME" value="changeToEnglish" />
+      <option name="MAIN_CLASS_NAME" value="news_page.LoginWithFacebook" />
+      <option name="METHOD_NAME" value="loginWithFacebook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeToFrenchTest.changeToFrench" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginWithGoogle.loginWithGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
         <pattern>
@@ -99,40 +116,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="news_page" />
-      <option name="MAIN_CLASS_NAME" value="news_page.ChangeToFrenchTest" />
-      <option name="METHOD_NAME" value="changeToFrench" />
+      <option name="MAIN_CLASS_NAME" value="news_page.LoginWithGoogle" />
+      <option name="METHOD_NAME" value="loginWithGoogle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeToRussianTest.changeToRussian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="news_page.*" />
+          <option name="PATTERN" value="weather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="news_page" />
-      <option name="MAIN_CLASS_NAME" value="news_page.ChangeToRussianTest" />
-      <option name="METHOD_NAME" value="changeToRussian" />
+      <option name="PACKAGE_NAME" value="weather" />
+      <option name="MAIN_CLASS_NAME" value="weather.SearchTest" />
+      <option name="METHOD_NAME" value="search" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeToSpanishTest.changeToRussian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ViewDetailOfLocation.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="news_page.*" />
+          <option name="PATTERN" value="weather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="news_page" />
-      <option name="MAIN_CLASS_NAME" value="news_page.ChangeToSpanishTest" />
-      <option name="METHOD_NAME" value="changeToRussian" />
+      <option name="PACKAGE_NAME" value="weather" />
+      <option name="MAIN_CLASS_NAME" value="weather.ViewDetailOfLocation" />
+      <option name="METHOD_NAME" value="search" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ChangeToSpanishTest.changeToRussian" />
-        <item itemvalue="JUnit.ChangeToRussianTest.changeToRussian" />
-        <item itemvalue="JUnit.ChangeToFrenchTest.changeToFrench" />
-        <item itemvalue="JUnit.ChangeToChineseTest.changeToChinese" />
-        <item itemvalue="JUnit.ChangeToEnglishTest.changeToEnglish" />
+        <item itemvalue="JUnit.ViewDetailOfLocation.search" />
+        <item itemvalue="JUnit.SearchTest.search" />
+        <item itemvalue="JUnit.LoginTest.logintest" />
+        <item itemvalue="JUnit.LoginWithFacebook.loginWithFacebook" />
+        <item itemvalue="JUnit.LoginWithGoogle.loginWithGoogle" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +175,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9ca4601-87ae-45cc-bae1-bcbe065d2c1c" name="Changes" comment="" />
+      <changelist id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="" />
       <created>1712385829323</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -176,5 +193,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

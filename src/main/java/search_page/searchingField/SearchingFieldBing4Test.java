@@ -60,7 +60,7 @@ public class SearchingFieldBing4Test {
     //Action: Navigate to "https://www.bing.com/" and type in "suicide" in the search box.
     //Action: Access the website "https://www.bing.com/" and enter the word "suicide" into the search field.
     //Action: Visit "https://www.bing.com/" and input the keyword "suicide" into the search textbox.
-    //Action: Go to the URL "https://www.bing.com/" and type "suicide" into the search input field
+    //Action: Go to the URL "https://www.bing.com/" and type "suicide" into the search input field.
     driver.get("https://www.bing.com/search?q=suicide&form=QBLH&sp=-1&ghc=1&lq=0&pq=suicid&sc=10-6&qs=n&sk=&cvid=4D858D8893584977A26F7A5557C5EC8B&ghsh=0&ghacc=0&ghpl=");
     driver.manage().window().setSize(new Dimension(784, 804));
     vars.put("window_handles", driver.getWindowHandles());

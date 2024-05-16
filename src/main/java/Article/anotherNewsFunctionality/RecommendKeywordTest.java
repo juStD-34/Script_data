@@ -47,8 +47,8 @@ public class RecommendKeywordTest {
   @Test
   public void recommendKeyword() {
 
-    // General Description: This test will check reading article with respect to the key word suggested by server.
-    // Web URL: "https://nhandan.vn/"
+    // GENERAL DESCRIPTION: This test will check reading article with respect to the key word suggested by server.
+    // WEB URL: "https://nhandan.vn/"
 
     // Action: Open the url "https://nhandan.vn/"
     // Action: Access the webpage "https://nhandan.vn/"

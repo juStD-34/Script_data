@@ -39,8 +39,8 @@ public class IntegrationFunctionTest {
   @Test
   public void integrationFunction() {
 
-    //General Description: this test is going to check if the weather and another functionality integrated into newspaper.
-    // Web url: https://nhandan.vn/
+    // GENERAL DESCRIPTION: this test is going to check if the weather and another functionality integrated into newspaper.
+    // WEB URL: https://nhandan.vn/
 
     // Action: Open the url "https://nhandan.vn/"
     // Action: Access the webpage "https://nhandan.vn/"

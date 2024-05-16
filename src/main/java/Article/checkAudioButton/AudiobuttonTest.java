@@ -38,8 +38,8 @@ public class AudiobuttonTest {
   }
   @Test
   public void audiobutton() {
-    // General Description: This test is checking the audio function of newspaper
-    // Web URL: https://nhandan.vn/
+    // GENERAL DESCRIPTION: This test is checking the audio function of newspaper
+    // WEB URL: https://nhandan.vn/
 
     // Action: Open the url "https://nhandan.vn/"
     // Action: Access the webpage "https://nhandan.vn/"
