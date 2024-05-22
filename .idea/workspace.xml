@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/SearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/ViewDetailOfLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weather/RecentLocationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weather/ViewStoriesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weather/ViewDetailOfLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weather/ViewDetailOfLocationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +55,26 @@
     "JUnit.LoginWithWrongUsername.logintest.executor": "Run",
     "JUnit.LogintestTest.logintest.executor": "Run",
     "JUnit.LogoutTest.logout.executor": "Run",
+    "JUnit.RecentLocationTest.recentLocation.executor": "Run",
     "JUnit.RecentReadTest.editprofile.executor": "Run",
     "JUnit.SavedNewsTest.viewSavedNews.executor": "Run",
     "JUnit.SearchTest.search.executor": "Run",
+    "JUnit.TopStoriesTest.topStories.executor": "Run",
+    "JUnit.ViewDetailOfLocation.executor": "Run",
     "JUnit.ViewDetailOfLocation.search.executor": "Run",
+    "JUnit.ViewDetailOfLocationTest.viewDetail.executor": "Run",
+    "JUnit.ViewRadarDetailTest.viewRadar.executor": "Run",
+    "JUnit.ViewStoriesTest.viewStories.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/HP/Desktop/IntelliJ/Script_data/src/main/java/results",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,56 +82,8 @@
       <recent name="C:\Users\HP\Desktop\IntelliJ\Script_data\src\main\java\results" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ViewDetailOfLocation.search">
-    <configuration name="LoginTest.logintest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScriptData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="news_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="news_page" />
-      <option name="MAIN_CLASS_NAME" value="news_page.LoginTest" />
-      <option name="METHOD_NAME" value="logintest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginWithFacebook.loginWithFacebook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScriptData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="news_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="news_page" />
-      <option name="MAIN_CLASS_NAME" value="news_page.LoginWithFacebook" />
-      <option name="METHOD_NAME" value="loginWithFacebook" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginWithGoogle.loginWithGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScriptData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="news_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="news_page" />
-      <option name="MAIN_CLASS_NAME" value="news_page.LoginWithGoogle" />
-      <option name="METHOD_NAME" value="loginWithGoogle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ViewStoriesTest.viewStories">
+    <configuration name="RecentLocationTest.recentLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
         <pattern>
@@ -132,14 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="weather" />
-      <option name="MAIN_CLASS_NAME" value="weather.SearchTest" />
-      <option name="METHOD_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="weather.RecentLocationTest" />
+      <option name="METHOD_NAME" value="recentLocation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViewDetailOfLocation.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopStoriesTest.topStories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +108,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="weather" />
-      <option name="MAIN_CLASS_NAME" value="weather.ViewDetailOfLocation" />
-      <option name="METHOD_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="weather.TopStoriesTest" />
+      <option name="METHOD_NAME" value="topStories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewDetailOfLocationTest.viewDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="weather" />
+      <option name="MAIN_CLASS_NAME" value="weather.ViewDetailOfLocationTest" />
+      <option name="METHOD_NAME" value="viewDetail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewRadarDetailTest.viewRadar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="weather" />
+      <option name="MAIN_CLASS_NAME" value="weather.ViewRadarDetailTest" />
+      <option name="METHOD_NAME" value="viewRadar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewStoriesTest.viewStories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="weather" />
+      <option name="MAIN_CLASS_NAME" value="weather.ViewStoriesTest" />
+      <option name="METHOD_NAME" value="viewStories" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ViewDetailOfLocation.search" />
-        <item itemvalue="JUnit.SearchTest.search" />
-        <item itemvalue="JUnit.LoginTest.logintest" />
-        <item itemvalue="JUnit.LoginWithFacebook.loginWithFacebook" />
-        <item itemvalue="JUnit.LoginWithGoogle.loginWithGoogle" />
+        <item itemvalue="JUnit.ViewStoriesTest.viewStories" />
+        <item itemvalue="JUnit.TopStoriesTest.topStories" />
+        <item itemvalue="JUnit.RecentLocationTest.recentLocation" />
+        <item itemvalue="JUnit.ViewDetailOfLocationTest.viewDetail" />
+        <item itemvalue="JUnit.ViewRadarDetailTest.viewRadar" />
       </list>
     </recent_temporary>
   </component>

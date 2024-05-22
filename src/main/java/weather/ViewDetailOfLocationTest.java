@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ViewDetailOfLocation {
+public class ViewDetailOfLocationTest {
     private WebDriver driver;
     private Map<String, Object> vars;
     JavascriptExecutor js;
@@ -24,7 +24,7 @@ public class ViewDetailOfLocation {
         driver.quit();
     }
     @Test
-    public void search() throws InterruptedException {
+    public void viewDetail() throws InterruptedException {
         driver.get("https://www.accuweather.com/");
 //        driver.manage().window().setSize(new Dimension(804, 816));
         driver.findElement(By.name("query")).click();
