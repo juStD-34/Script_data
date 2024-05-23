@@ -38,12 +38,25 @@ public class SearchTest {
   }
   @Test
   public void search() throws InterruptedException {
+    // GENERAL DESCRIPTION: search location
+    // WEB URL: "https://www.accuweather.com/"
+
+    // Action: Open link https://www.accuweather.com/
+    // Action: Enter link https://www.accuweather.com/
+    // Action: Visit this url https://www.accuweather.com/
     driver.get("https://www.accuweather.com/");
-    driver.manage().window().setSize(new Dimension(804, 816));
+    // Action: Click on the search input area
     driver.findElement(By.name("query")).click();
+    // Action: Type "hai" in the search area
     driver.findElement(By.name("query")).sendKeys("hai");
+    Thread.sleep(2000);
+    // Action: Press DOWN button
     driver.findElement(By.name("query")).sendKeys(Keys.DOWN);
+    Thread.sleep(2000);
+    // Action: Press DOWN button
     driver.findElement(By.name("query")).sendKeys(Keys.DOWN);
+    Thread.sleep(2000);
+    // Action: Press ENTER button
     driver.findElement(By.name("query")).sendKeys(Keys.ENTER);
     Thread.sleep(3000);
     driver.close();

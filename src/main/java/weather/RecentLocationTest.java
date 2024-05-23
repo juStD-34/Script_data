@@ -38,9 +38,15 @@ public class RecentLocationTest {
   }
   @Test
   public void recentLocation() throws InterruptedException {
+    // GENERAL DESCRIPTION: view a recent location
+    // WEB URL: "https://www.accuweather.com/"
+
+    // Action: Open link https://www.accuweather.com/
+    // Action: Enter link https://www.accuweather.com/
+    // Action: Visit this url https://www.accuweather.com/
     driver.get("https://www.accuweather.com/");
     Thread.sleep(5000);
-//    driver.manage().window().setSize(new Dimension(804, 816));
+    // Action: Click on a location below the search bar
     driver.findElement(By.className("recent-location-item")).click();
     Thread.sleep(3000);
     driver.close();

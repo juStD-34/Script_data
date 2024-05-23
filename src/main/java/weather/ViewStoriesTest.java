@@ -38,8 +38,14 @@ public class ViewStoriesTest {
   }
   @Test
   public void viewStories() {
+    // GENERAL DESCRIPTION: view story
+    // WEB URL: "https://www.accuweather.com/"
+
+    // Action: Open link https://www.accuweather.com/
+    // Action: Enter link https://www.accuweather.com/
+    // Action: Visit this url https://www.accuweather.com/
     driver.get("https://www.accuweather.com/");
-    driver.manage().window().setSize(new Dimension(804, 816));
+    // Action: Click on a story to view
     driver.findElement(By.cssSelector(".zone-rightRail1 > .thumbnail-right-rail:nth-child(1) > .right-rail-article:nth-child(2) .right-rail-article__title")).click();
     driver.close();
   }
