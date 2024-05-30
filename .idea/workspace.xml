@@ -168,6 +168,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.RecentLocationTest.recentLocation" />
+      <item itemvalue="JUnit.SearchTest.search" />
+      <item itemvalue="JUnit.TopStoriesTest.topStories" />
+      <item itemvalue="JUnit.ViewDetailOfLocationTest.viewDetail" />
+      <item itemvalue="JUnit.ViewStoriesTest.viewStories" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LoginCorrectTest.piazza" />
