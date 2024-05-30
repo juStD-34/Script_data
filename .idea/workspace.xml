@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d55422f-99be-4f9b-91c3-1bc98b16f90b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/extension/AdBlock.crx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forum/LoginCorrectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weather/ViewDetailOfLocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weather/ViewDetailOfLocationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,44 +39,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.ChangeToChineseTest.changeToChinese.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ChangeToEnglishTest.changeToEnglish.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EditprofileTest.editprofile.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginTest.logintest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginWithEmptyData.logintest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginWithFacebook.loginWithFacebook.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginWithGoogle.loginWithGoogle.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginWithShortPassword.logintest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginWithWrongPassword.logintest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginWithWrongUsername.logintest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogintestTest.logintest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogoutTest.logout.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RecentLocationTest.recentLocation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RecentReadTest.editprofile.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SavedNewsTest.viewSavedNews.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchTest.search.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TopStoriesTest.topStories.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ViewDetailOfLocation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ViewDetailOfLocation.search.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ViewDetailOfLocationTest.viewDetail.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ViewRadarDetailTest.viewRadar.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ViewStoriesTest.viewStories.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/IntelliJ/Script_data/src/main/java/results&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.ChangeToChineseTest.changeToChinese.executor": "Run",
+    "JUnit.ChangeToEnglishTest.changeToEnglish.executor": "Run",
+    "JUnit.EditprofileTest.editprofile.executor": "Run",
+    "JUnit.LoginTest.executor": "Run",
+    "JUnit.LoginTest.logintest.executor": "Run",
+    "JUnit.LoginWithEmptyData.logintest.executor": "Run",
+    "JUnit.LoginWithFacebook.loginWithFacebook.executor": "Run",
+    "JUnit.LoginWithGoogle.loginWithGoogle.executor": "Run",
+    "JUnit.LoginWithShortPassword.logintest.executor": "Run",
+    "JUnit.LoginWithWrongPassword.logintest.executor": "Run",
+    "JUnit.LoginWithWrongUsername.logintest.executor": "Run",
+    "JUnit.LogintestTest.logintest.executor": "Run",
+    "JUnit.LogoutTest.logout.executor": "Run",
+    "JUnit.PiazzaTest.piazza.executor": "Run",
+    "JUnit.RecentLocationTest.recentLocation.executor": "Run",
+    "JUnit.RecentReadTest.editprofile.executor": "Run",
+    "JUnit.SavedNewsTest.viewSavedNews.executor": "Run",
+    "JUnit.SearchTest.search.executor": "Run",
+    "JUnit.TopStoriesTest.topStories.executor": "Run",
+    "JUnit.ViewDetailOfLocation.executor": "Run",
+    "JUnit.ViewDetailOfLocation.search.executor": "Run",
+    "JUnit.ViewDetailOfLocationTest.viewDetail.executor": "Run",
+    "JUnit.ViewRadarDetailTest.viewRadar.executor": "Run",
+    "JUnit.ViewStoriesTest.viewStories.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/Desktop/IntelliJ/Script_data/src/main/java/results",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Desktop\IntelliJ\Script_data\src\main\java\results" />
@@ -85,7 +87,23 @@
       <recent name="E:\Script_data\src\main\java\extension" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ViewDetailOfLocationTest.viewDetail">
+  <component name="RunManager" selected="JUnit.LoginCorrectTest.piazza">
+    <configuration name="LoginCorrectTest.piazza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScriptData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="forum" />
+      <option name="MAIN_CLASS_NAME" value="forum.LoginCorrectTest" />
+      <option name="METHOD_NAME" value="piazza" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RecentLocationTest.recentLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScriptData" />
       <extension name="coverage">
@@ -113,22 +131,6 @@
       <option name="PACKAGE_NAME" value="weather" />
       <option name="MAIN_CLASS_NAME" value="weather.SearchTest" />
       <option name="METHOD_NAME" value="search" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopStoriesTest.topStories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ScriptData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="weather.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="weather" />
-      <option name="MAIN_CLASS_NAME" value="weather.TopStoriesTest" />
-      <option name="METHOD_NAME" value="topStories" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginCorrectTest.piazza" />
+        <item itemvalue="JUnit.SearchTest.search" />
         <item itemvalue="JUnit.ViewDetailOfLocationTest.viewDetail" />
         <item itemvalue="JUnit.ViewStoriesTest.viewStories" />
         <item itemvalue="JUnit.RecentLocationTest.recentLocation" />
-        <item itemvalue="JUnit.SearchTest.search" />
-        <item itemvalue="JUnit.TopStoriesTest.topStories" />
       </list>
     </recent_temporary>
   </component>
